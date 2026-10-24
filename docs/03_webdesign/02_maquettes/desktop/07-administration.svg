@@ -1,0 +1,369 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+<g id="07 - Administration (Desktop)">
+<rect id="Fond" x="0" y="0" width="1440" height="1100" fill="#F6F7F9"/>
+<g id="Sidebar">
+  <rect id="fond-sidebar" x="0" y="0" width="260" height="1100" fill="#FFFFFF"/>
+  <line x1="260" y1="0" x2="260" y2="1100" stroke="#E2E8F0" stroke-width="1"/>
+  <g id="Logo">
+    <rect id="logo-pastille" x="28" y="26" width="34" height="34" fill="#FF5A1F" rx="9"/>
+    <g id="icone-bolt-5" transform="translate(35,33) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte" x="72.0" y="50" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+  </g>
+  <g id="Rôle">
+    <rect id="fond" x="28" y="86" width="204" height="30" fill="#FFF1EA" rx="8"/>
+    <text id="libelle" x="40.0" y="106" font-family="Inter" font-size="13" font-weight="700" fill="#FF5A1F">Espace admin</text>
+  </g>
+  <g id="Menu">
+    <g id="Menu-Tableau-de-bord">
+      <rect id="fond-actif" x="16" y="142" width="228" height="42" fill="#FF5A1F" rx="10"/>
+      <g id="icone-chart-17" transform="translate(32,153) scale(0.833)">
+        <path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-2" x="64.0" y="168" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Tableau de bord</text>
+    </g>
+    <g id="Menu-Utilisateurs">
+      <g id="icone-user-23" transform="translate(32,201) scale(0.833)">
+        <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-3" x="64.0" y="216" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Utilisateurs</text>
+    </g>
+    <g id="Menu-Salles-et-activités">
+      <g id="icone-grid-29" transform="translate(32,249) scale(0.833)">
+        <path d="M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-4" x="64.0" y="264" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Salles et activités</text>
+    </g>
+    <g id="Menu-Réservations">
+      <g id="icone-list-35" transform="translate(32,297) scale(0.833)">
+        <path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-5" x="64.0" y="312" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Réservations</text>
+    </g>
+  </g>
+  <g id="Profil-bas">
+    <line x1="16" y1="1016" x2="244" y2="1016" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="Avatar-AD">
+      <circle cx="48" cy="1056" r="18" fill="#C4B5FD"/>
+      <text id="initiales" x="37.7" y="1061.76" font-family="Inter" font-size="14" font-weight="700" fill="#0F172A">AD</text>
+    </g>
+    <text id="Admin-FitBook" x="76.0" y="1052" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Admin FitBook</text>
+    <text id="admin@fitbook.be" x="76.0" y="1070" font-family="Inter" font-size="12" font-weight="400" fill="#64748B">admin@fitbook.be</text>
+    <g id="icone-logout-49" transform="translate(212,1046) scale(0.833)">
+      <path d="M15 4h4v16h-4 M10 8l-4 4l4 4 M6 12h10" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</g>
+<g id="Barre-de-titre">
+  <text id="titre-page" x="300.0" y="64" font-family="Inter" font-size="28" font-weight="800" fill="#0F172A">Administration</text>
+  <text id="sous-titre" x="300.0" y="92" font-family="Inter" font-size="15" font-weight="400" fill="#64748B">Vue d'ensemble de la plateforme et modération des contenus.</text>
+</g>
+<g id="Stat-Utilisateurs">
+  <rect id="fond-2" x="300" y="124" width="263" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone" x="320" y="146" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-user-61" transform="translate(331,157) scale(0.917)">
+    <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label" x="380.0" y="164" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Utilisateurs</text>
+  <text id="valeur" x="380.0" y="196" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">1 284</text>
+  <text id="evolution" x="320.0" y="222" font-family="Inter" font-size="12" font-weight="500" fill="#16A34A">+38 cette semaine</text>
+</g>
+<g id="Stat-Salles">
+  <rect id="fond-3" x="579" y="124" width="263" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-2" x="599" y="146" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-home-71" transform="translate(610,157) scale(0.917)">
+    <path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-2" x="659.0" y="164" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Salles</text>
+  <text id="valeur-2" x="659.0" y="196" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">126</text>
+</g>
+<g id="Stat-Réservations">
+  <rect id="fond-4" x="858" y="124" width="263" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-3" x="878" y="146" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-list-80" transform="translate(889,157) scale(0.917)">
+    <path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-3" x="938.0" y="164" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Réservations</text>
+  <text id="valeur-3" x="938.0" y="196" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">9 412</text>
+  <text id="evolution-2" x="878.0" y="222" font-family="Inter" font-size="12" font-weight="500" fill="#16A34A">+5 %</text>
+</g>
+<g id="Stat-Taux-de-remplissage">
+  <rect id="fond-5" x="1137" y="124" width="263" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-4" x="1157" y="146" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-chart-90" transform="translate(1168,157) scale(0.917)">
+    <path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-4" x="1217.0" y="164" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Taux de remplissage</text>
+  <text id="valeur-4" x="1217.0" y="196" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">78 %</text>
+</g>
+<g id="Tableau-Modération-des-avis">
+  <rect id="fond-6" x="300" y="260" width="1100" height="350" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="titre" x="324.0" y="302" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Modération des avis</text>
+  <g id="En-têtes">
+    <rect id="fond-entetes" x="301" y="330" width="1098" height="44" fill="#F6F7F9"/>
+    <text id="th-Auteur" x="324.0" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">AUTEUR</text>
+    <text id="th-Cible" x="461.2" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">CIBLE</text>
+    <text id="th-Note" x="621.3" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">NOTE</text>
+    <text id="th-Commentaire" x="747.1" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">COMMENTAIRE</text>
+    <text id="th-Statut" x="1090.1" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">STATUT</text>
+    <text id="th-Actions" x="1204.5" y="357" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">ACTIONS</text>
+  </g>
+  <g id="Ligne-1">
+    <text id="cellule" x="324.0" y="407.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Cheikh F.</text>
+    <text id="cellule-2" x="461.2" y="407.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Zen Studio</text>
+    <g id="Note-étoiles">
+      <g id="icone-star-112" transform="translate(621.304347826087,395.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-115" transform="translate(636.304347826087,395.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-118" transform="translate(651.304347826087,395.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-121" transform="translate(666.304347826087,395.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-124" transform="translate(681.304347826087,395.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+    </g>
+    <text id="cellule-3" x="747.1" y="407.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Super ambiance, je recommande !</text>
+    <g id="Badge-Publié">
+      <rect id="fond-7" x="1090.1304347826087" y="390.0" width="55.9375" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-6" x="1100.1" y="406.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Publié</text>
+    </g>
+    <g id="Actions">
+      <g id="Bouton-Masquer">
+        <rect id="fond-8" x="1204.4782608695652" y="385.0" width="96" height="34" fill="#FFF1EA" rx="10"/>
+        <text id="libelle-7" x="1226.9" y="406.32" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Masquer</text>
+      </g>
+      <rect x="1308.4782608695652" y="385.0" width="34" height="34" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-139" transform="translate(1316.4782608695652,393.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="430" x2="1376" y2="430" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-2">
+    <text id="cellule-4" x="324.0" y="463.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Anonyme22</text>
+    <text id="cellule-5" x="461.2" y="463.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Box Atomium</text>
+    <g id="Note-étoiles-2">
+      <g id="icone-star-149" transform="translate(621.304347826087,451.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-152" transform="translate(636.304347826087,451.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+      <g id="icone-star-155" transform="translate(651.304347826087,451.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+      <g id="icone-star-158" transform="translate(666.304347826087,451.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+      <g id="icone-star-161" transform="translate(681.304347826087,451.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+    </g>
+    <text id="cellule-6" x="747.1" y="463.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Arnaque !!! Contenu inapproprié…</text>
+    <g id="Badge-Masqué">
+      <rect id="fond-9" x="1090.1304347826087" y="446.0" width="66.46875" height="24" fill="#FEE2E2" rx="12"/>
+      <text id="libelle-8" x="1100.1" y="462.0" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">Masqué</text>
+    </g>
+    <g id="Actions-2">
+      <g id="Bouton-Republier">
+        <rect id="fond-10" x="1204.4782608695652" y="441.0" width="96" height="34" fill="#FFF1EA" rx="10"/>
+        <text id="libelle-9" x="1224.9" y="462.32" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Republier</text>
+      </g>
+      <rect x="1308.4782608695652" y="441.0" width="34" height="34" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-176" transform="translate(1316.4782608695652,449.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="486" x2="1376" y2="486" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-3">
+    <text id="cellule-7" x="324.0" y="519.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Élise P.</text>
+    <text id="cellule-8" x="461.2" y="519.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Coach Ngozi O.</text>
+    <g id="Note-étoiles-3">
+      <g id="icone-star-186" transform="translate(621.304347826087,507.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-189" transform="translate(636.304347826087,507.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-192" transform="translate(651.304347826087,507.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-195" transform="translate(666.304347826087,507.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-198" transform="translate(681.304347826087,507.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+    </g>
+    <text id="cellule-9" x="747.1" y="519.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Très pédagogue et motivante.</text>
+    <g id="Badge-Publié-2">
+      <rect id="fond-11" x="1090.1304347826087" y="502.0" width="55.9375" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-10" x="1100.1" y="518.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Publié</text>
+    </g>
+    <g id="Actions-3">
+      <g id="Bouton-Masquer-2">
+        <rect id="fond-12" x="1204.4782608695652" y="497.0" width="96" height="34" fill="#FFF1EA" rx="10"/>
+        <text id="libelle-11" x="1226.9" y="518.32" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Masquer</text>
+      </g>
+      <rect x="1308.4782608695652" y="497.0" width="34" height="34" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-213" transform="translate(1316.4782608695652,505.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="542" x2="1376" y2="542" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-4">
+    <text id="cellule-10" x="324.0" y="575.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Kofi M.</text>
+    <text id="cellule-11" x="461.2" y="575.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Ring Club</text>
+    <g id="Note-étoiles-4">
+      <g id="icone-star-223" transform="translate(621.304347826087,563.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-226" transform="translate(636.304347826087,563.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-229" transform="translate(651.304347826087,563.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-232" transform="translate(666.304347826087,563.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+      <g id="icone-star-235" transform="translate(681.304347826087,563.0) scale(0.542)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+      </g>
+    </g>
+    <text id="cellule-12" x="747.1" y="575.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Bien mais un peu cher.</text>
+    <g id="Badge-Publié-3">
+      <rect id="fond-13" x="1090.1304347826087" y="558.0" width="55.9375" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-12" x="1100.1" y="574.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Publié</text>
+    </g>
+    <g id="Actions-4">
+      <g id="Bouton-Masquer-3">
+        <rect id="fond-14" x="1204.4782608695652" y="553.0" width="96" height="34" fill="#FFF1EA" rx="10"/>
+        <text id="libelle-13" x="1226.9" y="574.32" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Masquer</text>
+      </g>
+      <rect x="1308.4782608695652" y="553.0" width="34" height="34" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-250" transform="translate(1316.4782608695652,561.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+</g>
+<g id="Tableau-Utilisateurs-récents">
+  <rect id="fond-15" x="300" y="640" width="1100" height="350" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="titre-2" x="324.0" y="682" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Utilisateurs récents</text>
+  <g id="En-têtes-2">
+    <rect id="fond-entetes-2" x="301" y="710" width="1098" height="44" fill="#F6F7F9"/>
+    <text id="th-Nom" x="324.0" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">NOM</text>
+    <text id="th-Email" x="523.7" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">EMAIL</text>
+    <text id="th-Rôle" x="790.1" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">RÔLE</text>
+    <text id="th-Statut-2" x="923.2" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">STATUT</text>
+    <text id="th-Inscription" x="1083.0" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">INSCRIPTION</text>
+    <text id="th-Actions-2" x="1242.8" y="737" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">ACTIONS</text>
+  </g>
+  <g id="Ligne-1-2">
+    <text id="cellule-13" x="324.0" y="787.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Aïssatou Bah</text>
+    <text id="cellule-14" x="523.7" y="787.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">aissatou@fitbook.be</text>
+    <g id="Badge-Sportif">
+      <rect id="fond-16" x="790.0759493670886" y="770.0" width="59.640625" height="24" fill="#FFF1EA" rx="12"/>
+      <text id="libelle-14" x="800.1" y="786.0" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Sportif</text>
+    </g>
+    <g id="Badge-Vérifié">
+      <rect id="fond-17" x="923.2405063291139" y="770.0" width="58.15625" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-15" x="933.2" y="786.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Vérifié</text>
+    </g>
+    <text id="cellule-15" x="1083.0" y="787.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">12/09/2026</text>
+    <g id="Actions-5">
+      <rect x="1242.8354430379745" y="764.0" width="36" height="36" fill="#FFF1EA" rx="10"/>
+      <g id="icone-edit-282" transform="translate(1251.8354430379745,773.0) scale(0.750)">
+        <path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <rect x="1286.8354430379745" y="764.0" width="36" height="36" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-286" transform="translate(1295.8354430379745,773.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="810" x2="1376" y2="810" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-2-2">
+    <text id="cellule-16" x="324.0" y="843.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Yasmina Benali</text>
+    <text id="cellule-17" x="523.7" y="843.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">yasmina@fitbook.be</text>
+    <g id="Badge-Coach">
+      <rect id="fond-18" x="790.0759493670886" y="826.0" width="57.5" height="24" fill="#FFF1EA" rx="12"/>
+      <text id="libelle-16" x="800.1" y="842.0" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Coach</text>
+    </g>
+    <g id="Badge-Vérifié-2">
+      <rect id="fond-19" x="923.2405063291139" y="826.0" width="58.15625" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-17" x="933.2" y="842.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Vérifié</text>
+    </g>
+    <text id="cellule-18" x="1083.0" y="843.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">02/09/2026</text>
+    <g id="Actions-6">
+      <rect x="1242.8354430379745" y="820.0" width="36" height="36" fill="#FFF1EA" rx="10"/>
+      <g id="icone-edit-306" transform="translate(1251.8354430379745,829.0) scale(0.750)">
+        <path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <rect x="1286.8354430379745" y="820.0" width="36" height="36" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-310" transform="translate(1295.8354430379745,829.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="866" x2="1376" y2="866" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-3-2">
+    <text id="cellule-19" x="324.0" y="899.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Mamadou Barry</text>
+    <text id="cellule-20" x="523.7" y="899.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">mamadou@zenstudio.be</text>
+    <g id="Badge-Gérant">
+      <rect id="fond-20" x="790.0759493670886" y="882.0" width="59.203125" height="24" fill="#FFF1EA" rx="12"/>
+      <text id="libelle-18" x="800.1" y="898.0" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Gérant</text>
+    </g>
+    <g id="Badge-Vérifié-3">
+      <rect id="fond-21" x="923.2405063291139" y="882.0" width="58.15625" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-19" x="933.2" y="898.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Vérifié</text>
+    </g>
+    <text id="cellule-21" x="1083.0" y="899.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">28/08/2026</text>
+    <g id="Actions-7">
+      <rect x="1242.8354430379745" y="876.0" width="36" height="36" fill="#FFF1EA" rx="10"/>
+      <g id="icone-edit-330" transform="translate(1251.8354430379745,885.0) scale(0.750)">
+        <path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <rect x="1286.8354430379745" y="876.0" width="36" height="36" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-334" transform="translate(1295.8354430379745,885.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <line x1="324" y1="922" x2="1376" y2="922" stroke="#E2E8F0" stroke-width="1"/>
+  </g>
+  <g id="Ligne-4-2">
+    <text id="cellule-22" x="324.0" y="955.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Thibault Wouters</text>
+    <text id="cellule-23" x="523.7" y="955.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">thibault@mail.be</text>
+    <g id="Badge-Sportif-2">
+      <rect id="fond-22" x="790.0759493670886" y="938.0" width="59.640625" height="24" fill="#FFF1EA" rx="12"/>
+      <text id="libelle-20" x="800.1" y="954.0" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Sportif</text>
+    </g>
+    <g id="Badge-En-attente">
+      <rect id="fond-23" x="923.2405063291139" y="938.0" width="78.171875" height="24" fill="#FEE2E2" rx="12"/>
+      <text id="libelle-21" x="933.2" y="954.0" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">En attente</text>
+    </g>
+    <text id="cellule-24" x="1083.0" y="955.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">04/10/2026</text>
+    <g id="Actions-8">
+      <rect x="1242.8354430379745" y="932.0" width="36" height="36" fill="#FFF1EA" rx="10"/>
+      <g id="icone-edit-354" transform="translate(1251.8354430379745,941.0) scale(0.750)">
+        <path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <rect x="1286.8354430379745" y="932.0" width="36" height="36" fill="#FEE2E2" rx="10"/>
+      <g id="icone-trash-358" transform="translate(1295.8354430379745,941.0) scale(0.750)">
+        <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+</g>
+</g>
+</svg>

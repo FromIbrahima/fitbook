@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1486" viewBox="0 0 390 1486">
+<defs>
+  <radialGradient id="aurore-orange" cx="0.88" cy="0.08" r="0.62"><stop offset="0" stop-color="#FF5A1F" stop-opacity="0.55"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-rose" cx="0.04" cy="1" r="0.6"><stop offset="0" stop-color="#EC4899" stop-opacity="0.32"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-violet" cx="0.55" cy="0.55" r="0.45"><stop offset="0" stop-color="#6366F1" stop-opacity="0.20"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <linearGradient id="aurore-nuit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1A"/><stop offset="0.52" stop-color="#0F1733"/><stop offset="1" stop-color="#1B0F27"/></linearGradient>
+  <linearGradient id="degrade-titre" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.5" stop-color="#FF9A5A"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <linearGradient id="degrade-bouton" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#FF7A3D"/></linearGradient>
+  <linearGradient id="degrade-image" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.45" stop-color="#FF8A3D"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="degrade-jauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <pattern id="points" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.14"/></pattern>
+  <linearGradient id="fond-connexion" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE7DC"/><stop offset="0.45" stop-color="#F6F7F9"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient>
+</defs>
+<g id="M07 - Administration (Mobile)">
+<rect id="Fond" x="0" y="0" width="390" height="1486" fill="#F6F7F9"/>
+<g id="Menu-espace (mobile / tablette : onglets à la ligne + barre utilisateur)">
+<rect id="fond-menu" x="0" y="0" width="390" height="354" fill="#FFFFFF" rx="0"/>
+<line x1="0" y1="354" x2="390" y2="354" stroke="#E2E8F0" stroke-width="1"/>
+<g id="Barre-statut-iOS">
+<text id="9:41" x="28.0" y="30" font-family="Inter" font-size="15" font-weight="600" fill="#0F172A">9:41</text>
+<rect x="332" y="18" width="30" height="13" fill="#0F172A" rx="3"/>
+</g>
+<g id="Logo">
+<rect id="logo-pastille" x="16" y="56" width="34" height="34" fill="#FF5A1F" rx="9"/>
+<g id="icone-bolt-951" transform="translate(23,63) scale(0.833)"><path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="logo-texte" x="60.0" y="80" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+</g>
+<g id="Badge-Espace admin">
+<rect x="16" y="102" width="111.8921875" height="30" fill="#FFF1EA" rx="8"/>
+<text id="libelle" x="28.0" y="122" font-family="Inter" font-size="13" font-weight="600" fill="#FF5A1F">Espace admin</text>
+</g>
+<g id="Onglets (passent à la ligne : tous visibles)">
+<rect id="onglet-actif" x="16" y="146" width="168.7921875" height="40" fill="#FF5A1F" rx="10"/>
+<g id="icone-chart-952" transform="translate(29,157) scale(0.750)"><path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Tableau de bord" x="55.0" y="172" font-family="Inter" font-size="15" font-weight="600" fill="#FFFFFF">Tableau de bord</text>
+<g id="icone-user-953" transform="translate(203.7921875,157) scale(0.750)"><path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Utilisateurs" x="229.8" y="172" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Utilisateurs</text>
+<g id="icone-home-954" transform="translate(29,203) scale(0.750)"><path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Salles et activités" x="55.0" y="218" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Salles et activités</text>
+<g id="icone-list-955" transform="translate(211.878125,203) scale(0.750)"><path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Réservations" x="237.9" y="218" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Réservations</text>
+<g id="icone-search-956" transform="translate(29,249) scale(0.750)"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Rechercher" x="55.0" y="264" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Rechercher</text>
+</g>
+<line x1="16" y1="292" x2="374" y2="292" stroke="#E2E8F0" stroke-width="1"/>
+<g id="Barre-utilisateur (avec Déconnexion)">
+<circle cx="34" cy="322" r="18" fill="#C4B5FD"/>
+<text id="initiales" x="26.5" y="327" font-family="Inter" font-size="12" font-weight="700" fill="#0F172A">FA</text>
+<text id="nom" x="62.0" y="319" font-family="Inter" font-size="14" font-weight="700" fill="#0F172A">FitBook Admin</text>
+<text id="email" x="62.0" y="336" font-family="Inter" font-size="12" font-weight="400" fill="#64748B">admin@fitbook.be</text>
+<rect id="bouton-déconnexion" x="338" y="304" width="36" height="36" fill="#FFF1EA" rx="10"/>
+<g id="icone-logout-957" transform="translate(347,313) scale(0.750)"><path d="M15 4h4v16h-4 M10 8l-4 4l4 4 M6 12h10" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g id="décalage-Administration" transform="translate(0,246)">
+<text id="Administration" x="16.0" y="150" font-family="Inter" font-size="28" font-weight="800" fill="#0F172A">Administration</text>
+</g>
+<g id="décalage-Vue-d'ensemble-et-modération" transform="translate(0,246)">
+<text id="Vue-d'ensemble-et-modération" x="16.0" y="176" font-family="Inter" font-size="14" font-weight="400" fill="#64748B">Vue d'ensemble et modération des contenus.</text>
+</g>
+<g id="décalage-Stat-Utilisateurs" transform="translate(0,246)">
+<g id="Stat-Utilisateurs">
+  <rect id="fond" x="16" y="196" width="175" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone" x="36" y="218" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-user-24" transform="translate(47,229) scale(0.917)">
+    <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label" x="96.0" y="236" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Utilisateurs</text>
+  <text id="valeur" x="96.0" y="268" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">31</text>
+</g>
+</g>
+<g id="décalage-Stat-Salles" transform="translate(0,246)">
+<g id="Stat-Salles">
+  <rect id="fond-2" x="199" y="196" width="175" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-2" x="219" y="218" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-home-33" transform="translate(230,229) scale(0.917)">
+    <path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-2" x="279.0" y="236" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Salles</text>
+  <text id="valeur-2" x="279.0" y="268" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">4</text>
+</g>
+</g>
+<g id="décalage-Stat-Réservations" transform="translate(0,246)">
+<g id="Stat-Réservations">
+  <rect id="fond-3" x="16" y="320" width="175" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-3" x="36" y="342" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-list-42" transform="translate(47,353) scale(0.917)">
+    <path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-3" x="96.0" y="360" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Réservations</text>
+  <text id="valeur-3" x="96.0" y="392" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">521</text>
+</g>
+</g>
+<g id="décalage-Stat-Remplissage" transform="translate(0,246)">
+<g id="Stat-Remplissage">
+  <rect id="fond-4" x="199" y="320" width="175" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <rect id="fond-icone-4" x="219" y="342" width="44" height="44" fill="#FFF1EA" rx="12"/>
+  <g id="icone-chart-51" transform="translate(230,353) scale(0.917)">
+    <path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="label-4" x="279.0" y="360" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Remplissage</text>
+  <text id="valeur-4" x="279.0" y="392" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">43,5 %</text>
+</g>
+</g>
+<g id="décalage-Modération-des-avis" transform="translate(0,246)">
+<text id="Modération-des-avis" x="16.0" y="480" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Modération des avis</text>
+</g>
+<g id="décalage-Badge-1-masqué(s)" transform="translate(0,246)">
+<g id="Badge-1-masqué(s)">
+  <rect id="fond-5" x="280" y="462" width="89.890625" height="24" fill="#FEE2E2" rx="12"/>
+  <text id="libelle" x="290.0" y="478" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">1 masqué(s)</text>
+</g>
+</g>
+<g id="décalage-Avis-en-carte-1" transform="translate(0,246)">
+<g id="Avis-en-carte-1">
+  <rect id="Carte" x="16" y="500" width="358" height="322" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="label-Auteur" x="32.0" y="534" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Auteur</text>
+  <text id="valeur-Auteur" x="280.2" y="534" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Cheikh F.</text>
+  <text id="label-Cible" x="32.0" y="572" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Cible</text>
+  <text id="valeur-Cible" x="285.8" y="572" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Zen Studio</text>
+  <text id="label-Note" x="32.0" y="610" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Note</text>
+  <g id="Note-étoiles">
+    <g id="icone-star-70" transform="translate(280,598) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+    <g id="icone-star-73" transform="translate(295,598) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+    <g id="icone-star-76" transform="translate(310,598) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+    <g id="icone-star-79" transform="translate(325,598) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+    <g id="icone-star-82" transform="translate(340,598) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+  </g>
+  <text id="label-Commentaire" x="32.0" y="648" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Commentaire</text>
+  <text id="Super-ambiance,-la-coach-est" x="32.0" y="676" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Super ambiance, la coach est top.</text>
+  <text id="label-Statut" x="32.0" y="722" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Statut</text>
+  <g id="Badge-Publié">
+    <rect id="fond-6" x="294" y="706" width="55.9375" height="24" fill="#DCFCE7" rx="12"/>
+    <text id="libelle-2" x="304.0" y="722" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Publié</text>
+  </g>
+  <text id="label-Actions" x="32.0" y="780" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Actions</text>
+  <g id="Bouton-Masquer">
+    <rect id="fond-7" x="198" y="754" width="112" height="38" fill="#FFF1EA" rx="10"/>
+    <text id="libelle-3" x="226.2" y="777.68" font-family="Inter" font-size="13" font-weight="600" fill="#FF5A1F">Masquer</text>
+  </g>
+  <rect x="318" y="754" width="38" height="38" fill="#FEE2E2" rx="10"/>
+  <g id="icone-trash-99" transform="translate(328,764) scale(0.750)">
+    <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+</g>
+<g id="décalage-Avis-en-carte-2" transform="translate(0,246)">
+<g id="Avis-en-carte-2">
+  <rect id="Carte-2" x="16" y="840" width="358" height="322" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="label-Auteur-2" x="32.0" y="874" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Auteur</text>
+  <text id="valeur-Auteur-2" x="293.2" y="874" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Awa N.</text>
+  <text id="label-Cible-2" x="32.0" y="912" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Cible</text>
+  <text id="valeur-Cible-2" x="269.6" y="912" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Box Atomium</text>
+  <text id="label-Note-2" x="32.0" y="950" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Note</text>
+  <g id="Note-étoiles-2">
+    <g id="icone-star-111" transform="translate(280,938) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+    </g>
+    <g id="icone-star-114" transform="translate(295,938) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+    </g>
+    <g id="icone-star-117" transform="translate(310,938) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+    </g>
+    <g id="icone-star-120" transform="translate(325,938) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+    </g>
+    <g id="icone-star-123" transform="translate(340,938) scale(0.542)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#E2E8F0"/>
+    </g>
+  </g>
+  <text id="label-Commentaire-2" x="32.0" y="988" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Commentaire</text>
+  <text id="Contenu-inapproprié-et-insul" x="32.0" y="1016" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Contenu inapproprié et insultant…</text>
+  <text id="label-Statut-2" x="32.0" y="1062" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Statut</text>
+  <g id="Badge-Masqué">
+    <rect id="fond-8" x="286" y="1046" width="66.46875" height="24" fill="#FEE2E2" rx="12"/>
+    <text id="libelle-4" x="296.0" y="1062" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">Masqué</text>
+  </g>
+  <text id="label-Actions-2" x="32.0" y="1120" font-family="Inter" font-size="12" font-weight="600" fill="#64748B">Actions</text>
+  <g id="Bouton-Republier">
+    <rect id="fond-9" x="198" y="1094" width="112" height="38" fill="#FFF1EA" rx="10"/>
+    <text id="libelle-5" x="224.1" y="1117.68" font-family="Inter" font-size="13" font-weight="600" fill="#FF5A1F">Republier</text>
+  </g>
+  <rect x="318" y="1094" width="38" height="38" fill="#FEE2E2" rx="10"/>
+  <g id="icone-trash-140" transform="translate(328,1104) scale(0.750)">
+    <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+</g>
+</g>
+</svg>
