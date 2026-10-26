@@ -1,0 +1,36 @@
+security:
+    # Les mots de passe sont hachés (bcrypt / argon2 selon le serveur) : jamais stockés en clair
+    password_hashers:
+        App\Entity\Utilisateur: 'auto'
+
+    providers:
+        app_user_provider:
+            entity:
+                class: App\Entity\Utilisateur
+                property: email
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        api:
+            pattern: ^/api
+            stateless: true
+            provider: app_user_provider
+            custom_authenticators:
+                - App\Security\ApiTokenAuthenticator
+            entry_point: App\Security\ApiTokenAuthenticator
+
+    role_hierarchy:
+        ROLE_SPORTIF: [ROLE_USER]
+        ROLE_COACH: [ROLE_USER]
+        ROLE_GESTIONNAIRE: [ROLE_USER]
+        ROLE_ADMIN: [ROLE_USER]
+
+    # Permissions par rôle (contrôlées AVANT d'entrer dans le contrôleur)
+    access_control:
+        - { path: '^/api/admin(/|$)', roles: ROLE_ADMIN }
+        - { path: '^/api/coach(/|$)', roles: ROLE_COACH }
+        - { path: '^/api/gestion(/|$)', roles: ROLE_GESTIONNAIRE }
+        - { path: '^/api/sportif(/|$)', roles: ROLE_SPORTIF }
+        - { path: '^/api/me(/|$)', roles: ROLE_USER }
