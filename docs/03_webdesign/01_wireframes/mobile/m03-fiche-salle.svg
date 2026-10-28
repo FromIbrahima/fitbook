@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1220" viewBox="0 0 390 1220">
+<g id="M03 - Fiche salle (Mobile)">
+<rect id="Fond" x="0" y="0" width="390" height="1220" fill="#FFFFFF"/>
+<g id="Couverture">
+  <g id="Photo">
+    <rect id="visuel" x="0" y="0" width="390" height="280" fill="#E4E4E4"/>
+    <line x1="0.0" y1="0.0" x2="390.0" y2="280.0" stroke="#C4C4C4" stroke-width="1"/>
+    <line x1="390.0" y1="0.0" x2="0.0" y2="280.0" stroke="#C4C4C4" stroke-width="1"/>
+    <text id="legende" x="143.9" y="145.0" font-family="Inter" font-size="13" font-weight="600" fill="#8A8A8A">Photo de la salle</text>
+  </g>
+  <g id="Barre-statut-iOS">
+    <text id="9:41" x="28.0" y="30" font-family="Inter" font-size="15" font-weight="600" fill="#1F1F1F">9:41</text>
+    <rect x="332" y="18" width="30" height="13" fill="#1F1F1F" rx="3"/>
+  </g>
+  <circle cx="36" cy="76" r="20" fill="#FFFFFF"/>
+  <g id="icone-chevl-12" transform="translate(24,64) scale(1.000)">
+    <path d="M15 6l-6 6l6 6" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="354" cy="76" r="20" fill="#FFFFFF"/>
+  <g id="icone-heart-16" transform="translate(343,65) scale(0.917)">
+    <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+<g id="En-tête-salle">
+  <rect x="0" y="256" width="390" height="200" fill="#FFFFFF" rx="24"/>
+  <g id="Chip-Yoga-·-Pilates">
+    <rect id="fond" x="20" y="276" width="97.6875" height="24" fill="#EDEDED" rx="12.0"/>
+    <text id="libelle" x="30.0" y="292.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Yoga · Pilates</text>
+  </g>
+  <text id="Zen-Studio" x="20.0" y="336" font-family="Inter" font-size="28" font-weight="800" fill="#1F1F1F">Zen Studio</text>
+  <g id="icone-pin-27" transform="translate(20,352) scale(0.667)">
+    <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="Rue-du-Bailli-42,-1050-Ixell" x="42.0" y="365" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">Rue du Bailli 42, 1050 Ixelles</text>
+  <g id="Note-étoiles">
+    <g id="icone-star-32" transform="translate(20,382) scale(0.625)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-35" transform="translate(37,382) scale(0.625)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-38" transform="translate(54,382) scale(0.625)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-41" transform="translate(71,382) scale(0.625)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-44" transform="translate(88,382) scale(0.625)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+  </g>
+  <text id="4,9-·-128-avis" x="110.0" y="395" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">4,9 · 128 avis</text>
+</g>
+<g id="Sélecteur-jour">
+  <text id="Prochaines-séances" x="20.0" y="446" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Prochaines séances</text>
+  <g id="Chip-Lun-12">
+    <rect id="fond-2" x="20" y="462" width="57.0625" height="24" fill="#EDEDED" rx="12.0"/>
+    <text id="libelle-2" x="30.0" y="478.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Lun 12</text>
+  </g>
+  <g id="Chip-Mar-13">
+    <rect id="fond-3" x="85.0625" y="462" width="58.46875" height="24" fill="#EDEDED" rx="12.0"/>
+    <text id="libelle-3" x="95.1" y="478.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Mar 13</text>
+  </g>
+  <g id="Chip-Mer-14">
+    <rect id="fond-4" x="151.53125" y="462" width="59.03125" height="24" fill="#3A3A3A" rx="12.0"/>
+    <text id="libelle-4" x="161.5" y="478.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Mer 14</text>
+  </g>
+  <g id="Chip-Jeu-15">
+    <rect id="fond-5" x="218.5625" y="462" width="57.046875" height="24" fill="#EDEDED" rx="12.0"/>
+    <text id="libelle-5" x="228.6" y="478.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Jeu 15</text>
+  </g>
+</g>
+<g id="Séance-Vinyasa-Flow">
+  <rect id="Carte" x="20" y="504" width="350" height="84" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+  <text id="18:30" x="36.0" y="536" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">18:30</text>
+  <text id="Vinyasa-Flow" x="100.0" y="536" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Vinyasa Flow</text>
+  <text id="Yasmina-B.-·-15-€" x="100.0" y="558" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Yasmina B. · 15 €</text>
+  <g id="Bouton-Réserver">
+    <rect id="fond-6" x="268" y="528" width="88" height="36" fill="#3A3A3A" rx="10"/>
+    <text id="libelle-6" x="283.8" y="550.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+  </g>
+</g>
+<g id="Séance-Yin-Yoga">
+  <rect id="Carte-2" x="20" y="600" width="350" height="84" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+  <text id="19:45" x="36.0" y="632" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">19:45</text>
+  <text id="Yin-Yoga" x="100.0" y="632" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Yin Yoga</text>
+  <text id="Lucas-J.-·-13-€" x="100.0" y="654" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Lucas J. · 13 €</text>
+  <g id="Bouton-Complet">
+    <rect id="fond-7" x="268" y="624" width="88" height="36" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="libelle-7" x="285.5" y="646.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Complet</text>
+  </g>
+</g>
+<g id="Séance-Méditation">
+  <rect id="Carte-3" x="20" y="696" width="350" height="84" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+  <text id="20:00" x="36.0" y="728" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">20:00</text>
+  <text id="Méditation" x="100.0" y="728" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Méditation</text>
+  <text id="Fatoumata-D.-·-10-€" x="100.0" y="750" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Fatoumata D. · 10 €</text>
+  <g id="Bouton-Réserver-2">
+    <rect id="fond-8" x="268" y="720" width="88" height="36" fill="#3A3A3A" rx="10"/>
+    <text id="libelle-8" x="283.8" y="742.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+  </g>
+</g>
+<g id="Avis">
+  <text id="Avis-des-sportifs" x="20.0" y="830" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Avis des sportifs</text>
+  <g id="Avis-Cheikh-F.">
+    <rect id="Carte-4" x="20" y="850" width="350" height="84" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="Avatar-CF">
+      <circle cx="52" cy="880" r="16" fill="#D9D9D9"/>
+      <text id="initiales" x="52" text-anchor="middle" y="885.12" font-family="Inter" font-size="12" font-weight="700" fill="#1F1F1F">CF</text>
+    </g>
+    <text id="Cheikh-F." x="78.0" y="878" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Cheikh F.</text>
+    <g id="Note-étoiles-2">
+      <g id="icone-star-109" transform="translate(78,886) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-112" transform="translate(92,886) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-115" transform="translate(106,886) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-118" transform="translate(120,886) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-121" transform="translate(134,886) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+    </g>
+    <text id="Super-ambiance,-coach-au-top" x="36.0" y="922" font-family="Inter" font-size="13" font-weight="400" fill="#1F1F1F">Super ambiance, coach au top !</text>
+  </g>
+  <g id="Avis-Élise-P.">
+    <rect id="Carte-5" x="20" y="946" width="350" height="84" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="Avatar-EP">
+      <circle cx="52" cy="976" r="16" fill="#D9D9D9"/>
+      <text id="initiales-2" x="52" text-anchor="middle" y="981.12" font-family="Inter" font-size="12" font-weight="700" fill="#1F1F1F">EP</text>
+    </g>
+    <text id="Élise-P." x="78.0" y="974" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Élise P.</text>
+    <g id="Note-étoiles-3">
+      <g id="icone-star-135" transform="translate(78,982) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-138" transform="translate(92,982) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-141" transform="translate(106,982) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-144" transform="translate(120,982) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <g id="icone-star-147" transform="translate(134,982) scale(0.500)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+    </g>
+    <text id="Studio-propre-et-calme." x="36.0" y="1018" font-family="Inter" font-size="13" font-weight="400" fill="#1F1F1F">Studio propre et calme.</text>
+  </g>
+  <g id="Bouton-Laisser-un-avis">
+    <rect id="fond-9" x="20" y="1052" width="350" height="46" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="icone-star-155" transform="translate(132.7734375,1066.0) scale(0.750)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#1F1F1F"/>
+    </g>
+    <text id="libelle-9" x="156.8" y="1080.04" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">Laisser un avis</text>
+  </g>
+</g>
+<g id="Barre-réservation-fixe">
+  <rect x="0" y="1120" width="390" height="100" fill="#FFFFFF"/>
+  <line x1="0" y1="1120" x2="390" y2="1120" stroke="#CFCFCF" stroke-width="1"/>
+  <text id="Dès-10-€" x="20.0" y="1158" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Dès 10 €</text>
+  <text id="par-séance" x="20.0" y="1180" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">par séance</text>
+  <g id="Bouton-Voir-les-créneaux">
+    <rect id="fond-10" x="190" y="1138" width="180" height="50" fill="#3A3A3A" rx="10"/>
+    <text id="libelle-10" x="221.4" y="1168.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Voir les créneaux</text>
+  </g>
+</g>
+</g>
+</svg>

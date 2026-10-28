@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1225" viewBox="0 0 390 1225">
+
+<g id="M05 - Connexion (Mobile)">
+<rect id="Fond" x="0" y="0" width="390" height="1225" fill="#FFFFFF" rx="0"/>
+<g id="Barre-statut-iOS">
+<text id="9:41" x="28.0" y="30" font-family="Inter" font-size="15" font-weight="600" fill="#1F1F1F">9:41</text>
+<rect x="332" y="18" width="30" height="13" fill="#1F1F1F" rx="3"/>
+</g>
+<g id="Header-mobile">
+<rect x="0" y="44" width="390" height="56" fill="#FFFFFF" rx="0"/>
+<line x1="0" y1="100" x2="390" y2="100" stroke="#CFCFCF" stroke-width="1"/>
+<g id="Logo">
+<rect id="logo-pastille" x="20" y="55" width="34" height="34" fill="#1F1F1F" rx="9"/>
+<g id="icone-bolt-301" transform="translate(27,62) scale(0.833)"><path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="logo-texte" x="64.0" y="79" font-family="Inter" font-size="22" font-weight="800" fill="#1F1F1F">FitBook</text>
+</g>
+<g id="icone-menu-302" transform="translate(340,64) scale(1.000)"><path d="M4 7h16 M4 12h16 M4 17h16" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<g id="Zone-formulaire">
+<g id="Carte-formulaire-connexion">
+<rect id="fond-carte" x="12" y="125" width="366" height="412" rx="22" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1"/>
+<g id="Interrupteur-Connexion-Inscription">
+<rect x="42" y="155" width="306" height="48" fill="#EDEDED" rx="14"/>
+<rect id="curseur" x="47" y="160" width="148.0" height="38" fill="#3A3A3A" rx="10"/>
+<text id="onglet-Connexion" x="81.7" y="184" font-family="Inter" font-size="14" font-weight="700" fill="#FFFFFF">Connexion</text>
+<text id="onglet-Inscription" x="234.8" y="184" font-family="Inter" font-size="14" font-weight="700" fill="#8A8A8A">Inscription</text>
+</g>
+<text id="titre" x="42.0" y="247" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">Bon retour</text>
+<text id="sous-titre" x="42.0" y="271" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">Connectez-vous pour gérer vos réservations.</text>
+<g id="Champ-Email">
+<text id="label" x="42.0" y="299" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Email</text>
+<rect x="42" y="307" width="306" height="48" fill="#FFFFFF" rx="12" stroke="#CFCFCF" stroke-width="1"/>
+<g id="icone-user-303" transform="translate(56,322.0) scale(0.750)"><path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#9A9A9A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="86.0" y="336.0" font-family="Inter" font-size="14" font-weight="400" fill="#9A9A9A">vous@exemple.be</text>
+</g>
+<g id="Champ-Mot de passe">
+<text id="label" x="42.0" y="381" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Mot de passe</text>
+<rect x="42" y="389" width="306" height="48" fill="#FFFFFF" rx="12" stroke="#CFCFCF" stroke-width="1"/>
+<g id="icone-shield-304" transform="translate(56,404.0) scale(0.750)"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z" fill="none" stroke="#9A9A9A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="86.0" y="418.0" font-family="Inter" font-size="14" font-weight="400" fill="#9A9A9A">••••••••</text>
+<text id="action" x="284.2" y="418.0" font-family="Inter" font-size="12.5" font-weight="700" fill="#1F1F1F">Afficher</text>
+</g>
+<g id="Bouton-Se connecter">
+<rect id="fond" x="42" y="457" width="306" height="50" fill="#3A3A3A" rx="12"/>
+<text id="libelle" x="139.1" y="487.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Se connecter</text>
+<g id="icone-chev-305" transform="translate(235.89921875000002,474.0) scale(0.667)"><path d="M9 6l6 6l-6 6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+</g>
+<g id="Vitrine-fond-aurore">
+<rect x="0" y="565" width="390" height="660" fill="#E4E4E4" rx="0"/>
+<text id="note-fond" x="27.9" y="1211" font-family="Inter" font-size="11" font-weight="500" fill="#8A8A8A">fond « aurore » (bleu nuit + lueurs orange / rose + grille de points)</text>
+</g>
+<g id="Vitrine (texte, atouts, cartes, chiffres)">
+<g id="Chip-⚡ La plateforme sportive de Bruxelles">
+<rect x="24" y="601" width="241.7765625" height="26" fill="#FFFFFF" rx="13.0" stroke="#CFCFCF" stroke-width="1"/>
+<text id="libelle" x="37.0" y="618.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">⚡ La plateforme sportive de Bruxelles</text>
+</g>
+<text id="titre-1" x="24.0" y="666.0" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">Votre prochaine séance</text>
+<text id="titre-2-dégradé" x="24.0" y="695.9" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">commence ici.</text>
+<text id="accroche" x="24.0" y="729.9" font-family="Inter" font-size="14.5" font-weight="400" fill="#8A8A8A">Salles, cours et coachs de Bruxelles réunis au</text>
+<text id="accroche" x="24.0" y="751.9" font-family="Inter" font-size="14.5" font-weight="400" fill="#8A8A8A">même endroit. Réservez en quelques secondes,</text>
+<text id="accroche" x="24.0" y="773.9" font-family="Inter" font-size="14.5" font-weight="400" fill="#8A8A8A">retrouvez tout dans votre espace.</text>
+<g id="Atout-Recherche intelligente">
+<rect x="24" y="813.9" width="30" height="30" fill="#EDEDED" rx="9" stroke="#CFCFCF" stroke-width="1"/>
+<g id="icone-search-601" transform="translate(31,820.9) scale(0.667)"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="66.0" y="826.9" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Recherche intelligente</text>
+<text id="texte" x="66.0" y="844.9" font-family="Inter" font-size="12.5" font-weight="400" fill="#8A8A8A">Filtrez par activité, ville, niveau, prix ou note.</text>
+</g>
+<g id="Atout-Réservation instantanée">
+<rect x="24" y="865.9" width="30" height="30" fill="#EDEDED" rx="9" stroke="#CFCFCF" stroke-width="1"/>
+<g id="icone-cal-602" transform="translate(31,872.9) scale(0.667)"><path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="66.0" y="878.9" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Réservation instantanée</text>
+<text id="texte" x="66.0" y="896.9" font-family="Inter" font-size="12.5" font-weight="400" fill="#8A8A8A">Places en temps réel, confirmation par email.</text>
+</g>
+<g id="Atout-Billet QR code">
+<rect x="24" y="917.9" width="30" height="30" fill="#EDEDED" rx="9" stroke="#CFCFCF" stroke-width="1"/>
+<g id="icone-qr-603" transform="translate(31,924.9) scale(0.667)"><path d="M4 4h6v6H4z M14 4h6v6h-6z M4 14h6v6H4z M14 14h2v2h-2z M18 18h2v2h-2z M14 18h2 M18 14h2" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="66.0" y="930.9" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Billet QR code</text>
+<text id="texte" x="66.0" y="948.9" font-family="Inter" font-size="12.5" font-weight="400" fill="#8A8A8A">Présentez-le à l&#x27;accueil de la salle.</text>
+</g>
+<g id="Carte-réservation-confirmée">
+<rect x="24" y="983.9" width="342" height="56" fill="#FFFFFF" rx="16" stroke="#1F1F1F" stroke-width="1"/>
+<rect x="36" y="994.9" width="34" height="34" fill="#D9D9D9" rx="10"/>
+<g id="icone-check-604" transform="translate(44.0,1002.9) scale(0.750)"><path d="M5 12l4 4l10-10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="80.0" y="1008.9" font-family="Inter" font-size="13.5" font-weight="700" fill="#1F1F1F">Réservation confirmée</text>
+<text id="sous-titre" x="80.0" y="1025.9" font-family="Inter" font-size="11.5" font-weight="400" fill="#8A8A8A">Vinyasa Flow · ce soir 18:30</text>
+</g>
+<g id="Carte-places">
+<rect x="24" y="1049.9" width="342" height="56" fill="#FFFFFF" rx="16" stroke="#1F1F1F" stroke-width="1"/>
+<rect x="36" y="1060.9" width="34" height="34" fill="#D9D9D9" rx="10"/>
+<g id="icone-bolt-605" transform="translate(44.0,1068.9) scale(0.750)"><path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="80.0" y="1074.9" font-family="Inter" font-size="13.5" font-weight="700" fill="#1F1F1F">Plus que 3 places</text>
+<text id="sous-titre" x="80.0" y="1091.9" font-family="Inter" font-size="11.5" font-weight="400" fill="#8A8A8A">Boxe débutant · Ring Club</text>
+</g>
+<g id="Chiffres">
+<rect x="24" y="1137.9" width="2" height="48" fill="#1F1F1F" rx="1"/>
+<text id="chiffre-salles" x="38.0" y="1161.9" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">5</text>
+<text id="libelle-salles" x="38.0" y="1183.9" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">salles</text>
+<rect x="105.5828125" y="1137.9" width="2" height="48" fill="#1F1F1F" rx="1"/>
+<text id="chiffre-coachs" x="119.6" y="1161.9" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">5</text>
+<text id="libelle-coachs" x="119.6" y="1183.9" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">coachs</text>
+<rect x="197.640625" y="1137.9" width="2" height="48" fill="#1F1F1F" rx="1"/>
+<text id="chiffre-séances à venir" x="211.6" y="1161.9" font-family="Inter" font-size="26" font-weight="800" fill="#1F1F1F">31</text>
+<text id="libelle-séances à venir" x="211.6" y="1183.9" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">séances à venir</text>
+</g>
+</g>
+</g>
+</svg>

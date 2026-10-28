@@ -1,0 +1,517 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="3450" viewBox="0 0 1440 3450">
+<defs>
+  <radialGradient id="aurore-orange" cx="0.88" cy="0.08" r="0.62"><stop offset="0" stop-color="#FF5A1F" stop-opacity="0.55"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-rose" cx="0.04" cy="1" r="0.6"><stop offset="0" stop-color="#EC4899" stop-opacity="0.32"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-violet" cx="0.55" cy="0.55" r="0.45"><stop offset="0" stop-color="#6366F1" stop-opacity="0.20"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <linearGradient id="aurore-nuit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1A"/><stop offset="0.52" stop-color="#0F1733"/><stop offset="1" stop-color="#1B0F27"/></linearGradient>
+  <linearGradient id="degrade-titre" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.5" stop-color="#FF9A5A"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <linearGradient id="degrade-bouton" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#FF7A3D"/></linearGradient>
+  <linearGradient id="degrade-image" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.45" stop-color="#FF8A3D"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="degrade-jauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <pattern id="points" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.14"/></pattern>
+  <linearGradient id="fond-connexion" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE7DC"/><stop offset="0.45" stop-color="#F6F7F9"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient>
+</defs>
+<g id="00 - Charte graphique (Design system)">
+<rect id="Fond" x="0" y="0" width="1440" height="3450" fill="#F6F7F9"/>
+<g id="Logo">
+  <rect id="logo-pastille" x="80" y="56" width="34" height="34" fill="#FF5A1F" rx="9"/>
+  <g id="icone-bolt-2" transform="translate(87,63) scale(0.833)">
+    <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="logo-texte" x="124.0" y="80" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+</g>
+<text id="Charte-graphique-—-Design-sy" x="80.0" y="150" font-family="Inter" font-size="40" font-weight="800" fill="#0F172A">Charte graphique — Design system FitBook</text>
+<text id="Les-éléments-de-base-réutili" x="80.0" y="186" font-family="Inter" font-size="16" font-weight="400" fill="#64748B">Les éléments de base réutilisés sur tous les écrans (desktop, tablette, mobile) et dans le code CSS (styles.css).</text>
+<g id="Couleurs">
+  <text id="1.-Couleurs" x="80.0" y="260" font-family="Inter" font-size="24" font-weight="800" fill="#0F172A">1. Couleurs</text>
+  <g id="Couleur-Primaire">
+    <rect x="80" y="290" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="96" y="306" width="64" height="64" fill="#FF5A1F" rx="12"/>
+    <text id="Primaire" x="176.0" y="330" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Primaire</text>
+    <text id="#FF5A1F--·----primaire" x="176.0" y="354" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#FF5A1F  ·  --primaire</text>
+    <text id="Actions,-liens,-accents-«-én" x="96.0" y="408" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Actions, liens, accents « énergie »</text>
+  </g>
+  <g id="Couleur-Encre">
+    <rect x="410" y="290" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="426" y="306" width="64" height="64" fill="#0F172A" rx="12"/>
+    <text id="Encre" x="506.0" y="330" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Encre</text>
+    <text id="#0F172A--·----encre" x="506.0" y="354" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#0F172A  ·  --encre</text>
+    <text id="Textes,-hero,-footer" x="426.0" y="408" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Textes, hero, footer</text>
+  </g>
+  <g id="Couleur-Gris-texte">
+    <rect x="740" y="290" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="756" y="306" width="64" height="64" fill="#64748B" rx="12"/>
+    <text id="Gris-texte" x="836.0" y="330" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Gris texte</text>
+    <text id="#64748B--·----gris" x="836.0" y="354" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#64748B  ·  --gris</text>
+    <text id="Textes-secondaires" x="756.0" y="408" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Textes secondaires</text>
+  </g>
+  <g id="Couleur-Bordures">
+    <rect x="1070" y="290" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="1086" y="306" width="64" height="64" fill="#E2E8F0" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="Bordures" x="1166.0" y="330" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Bordures</text>
+    <text id="#E2E8F0--·----bordure" x="1166.0" y="354" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#E2E8F0  ·  --bordure</text>
+    <text id="Cartes,-champs,-séparateurs" x="1086.0" y="408" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Cartes, champs, séparateurs</text>
+  </g>
+  <g id="Couleur-Fond">
+    <rect x="80" y="460" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="96" y="476" width="64" height="64" fill="#F6F7F9" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="Fond" x="176.0" y="500" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Fond</text>
+    <text id="#F6F7F9--·----fond" x="176.0" y="524" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#F6F7F9  ·  --fond</text>
+    <text id="Arrière-plan-des-pages" x="96.0" y="578" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Arrière-plan des pages</text>
+  </g>
+  <g id="Couleur-Doux">
+    <rect x="410" y="460" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="426" y="476" width="64" height="64" fill="#FFF1EA" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="Doux" x="506.0" y="500" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Doux</text>
+    <text id="#FFF1EA--·----doux" x="506.0" y="524" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#FFF1EA  ·  --doux</text>
+    <text id="Chips,-pastilles-d'icônes" x="426.0" y="578" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Chips, pastilles d'icônes</text>
+  </g>
+  <g id="Couleur-Succès">
+    <rect x="740" y="460" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="756" y="476" width="64" height="64" fill="#16A34A" rx="12"/>
+    <text id="Succès" x="836.0" y="500" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Succès</text>
+    <text id="#16A34A--·----succes" x="836.0" y="524" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#16A34A  ·  --succes</text>
+    <text id="Places-disponibles,-confirmé" x="756.0" y="578" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Places disponibles, confirmé</text>
+  </g>
+  <g id="Couleur-Danger">
+    <rect x="1070" y="460" width="310" height="150" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="1086" y="476" width="64" height="64" fill="#DC2626" rx="12"/>
+    <text id="Danger" x="1166.0" y="500" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Danger</text>
+    <text id="#DC2626--·----danger" x="1166.0" y="524" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">#DC2626  ·  --danger</text>
+    <text id="Complet,-annulé,-supprimer" x="1086.0" y="578" font-family="Inter" font-size="13" font-weight="400" fill="#0F172A">Complet, annulé, supprimer</text>
+  </g>
+</g>
+<g id="Typographie">
+  <text id="2.-Typographie-—-Inter-(Goog" x="80.0" y="660" font-family="Inter" font-size="24" font-weight="800" fill="#0F172A">2. Typographie — Inter (Google Fonts, gratuite)</text>
+  <text id="Titre-hero" x="80.0" y="730" font-family="Inter" font-size="56" font-weight="800" fill="#0F172A">Titre hero</text>
+  <text id="56-px-·-ExtraBold" x="760.0" y="730" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">56 px · ExtraBold</text>
+  <text id="Titre-de-page" x="80.0" y="812" font-family="Inter" font-size="28" font-weight="800" fill="#0F172A">Titre de page</text>
+  <text id="28-px-·-ExtraBold" x="760.0" y="812" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">28 px · ExtraBold</text>
+  <text id="Titre-de-carte" x="80.0" y="866" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Titre de carte</text>
+  <text id="18-px-·-ExtraBold" x="760.0" y="866" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">18 px · ExtraBold</text>
+  <text id="Texte-courant" x="80.0" y="910" font-family="Inter" font-size="15" font-weight="400" fill="#0F172A">Texte courant</text>
+  <text id="15-px-·-Regular" x="760.0" y="910" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">15 px · Regular</text>
+  <text id="Texte-secondaire" x="80.0" y="954" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Texte secondaire</text>
+  <text id="13-px-·-Regular,-gris" x="760.0" y="954" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">13 px · Regular, gris</text>
+  <text id="ÉTIQUETTE-DE-TABLEAU" x="80.0" y="998" font-family="Inter" font-size="11" font-weight="700" fill="#0F172A">ÉTIQUETTE DE TABLEAU</text>
+  <text id="11-px-·-Bold,-majuscules" x="760.0" y="998" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">11 px · Bold, majuscules</text>
+</g>
+<g id="Composants">
+  <text id="3.-Composants" x="80.0" y="1080" font-family="Inter" font-size="24" font-weight="800" fill="#0F172A">3. Composants</text>
+  <text id="Boutons" x="80.0" y="1120" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Boutons</text>
+  <g id="Bouton-Réserver">
+    <rect id="fond" x="80" y="1136" width="130" height="44" fill="#FF5A1F" rx="10"/>
+    <text id="libelle" x="114.6" y="1163.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+  </g>
+  <g id="Bouton-Contacter">
+    <rect id="fond-2" x="226" y="1136" width="130" height="44" fill="#0F172A" rx="10"/>
+    <text id="libelle-2" x="257.4" y="1163.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Contacter</text>
+  </g>
+  <g id="Bouton-Ajouter">
+    <rect id="fond-3" x="372" y="1136" width="130" height="44" fill="#FFF1EA" rx="10"/>
+    <text id="libelle-3" x="412.2" y="1163.04" font-family="Inter" font-size="14" font-weight="600" fill="#FF5A1F">Ajouter</text>
+  </g>
+  <g id="Bouton-Annuler">
+    <rect id="fond-4" x="518" y="1136" width="130" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="libelle-4" x="556.3" y="1163.04" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Annuler</text>
+  </g>
+  <g id="Bouton-Supprimer">
+    <rect id="fond-5" x="664" y="1136" width="130" height="44" fill="#FEE2E2" rx="10"/>
+    <text id="libelle-5" x="693.5" y="1163.04" font-family="Inter" font-size="14" font-weight="600" fill="#DC2626">Supprimer</text>
+  </g>
+  <g id="Bouton-désactivé">
+    <rect x="810" y="1136" width="130" height="44" fill="#FF5A1F" rx="10"/>
+    <rect x="810" y="1136" width="130" height="44" fill="#FFFFFF" fill-opacity="0.50" rx="10"/>
+    <text id="Complet" x="846.5" y="1163" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Complet</text>
+  </g>
+  <text id="Champs-de-formulaire" x="80.0" y="1220" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Champs de formulaire</text>
+  <g id="Champ-normal">
+    <text id="label" x="80.0" y="1244" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Email (normal)</text>
+    <rect id="champ" x="80" y="1252" width="300" height="46" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder" x="94.0" y="1280.0" font-family="Inter" font-size="14" font-weight="400" fill="#64748B">vous@exemple.be</text>
+  </g>
+  <g id="Champ-focus">
+    <text id="Focus" x="400.0" y="1244" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Focus</text>
+    <rect x="396" y="1248" width="308" height="54" fill="#FF5A1F" fill-opacity="0.15" rx="13"/>
+    <rect x="400" y="1252" width="300" height="46" fill="#FFFFFF" rx="10" stroke="#FF5A1F" stroke-width="1"/>
+    <text id="aissatou@fitbook.be" x="414.0" y="1280" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">aissatou@fitbook.be</text>
+  </g>
+  <g id="Champ-erreur">
+    <text id="Erreur" x="720.0" y="1244" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Erreur</text>
+    <rect x="720" y="1252" width="300" height="46" fill="#FFFFFF" rx="10" stroke="#DC2626" stroke-width="1"/>
+    <text id="pas-un-email" x="734.0" y="1280" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">pas-un-email</text>
+    <text id="Adresse-email-invalide." x="720.0" y="1316" font-family="Inter" font-size="12" font-weight="500" fill="#DC2626">Adresse email invalide.</text>
+  </g>
+  <text id="Chips-(filtres,-onglets)-et-" x="80.0" y="1366" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Chips (filtres, onglets) et badges (statuts)</text>
+  <g id="Chip-Yoga">
+    <rect id="fond-6" x="80" y="1384" width="59.515625" height="32" fill="#FFF1EA" rx="16.0"/>
+    <text id="libelle-6" x="94.0" y="1404.68" font-family="Inter" font-size="13" font-weight="600" fill="#FF5A1F">Yoga</text>
+  </g>
+  <g id="Chip-Séances-(9)">
+    <rect id="fond-7" x="149.515625" y="1384" width="103.375" height="32" fill="#FF5A1F" rx="16.0"/>
+    <text id="libelle-7" x="163.5" y="1404.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Séances (9)</text>
+  </g>
+  <g id="Badge-6-places-restantes">
+    <rect id="fond-8" x="282.890625" y="1388" width="126.453125" height="24" fill="#DCFCE7" rx="12"/>
+    <text id="libelle-8" x="292.9" y="1404" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">6 places restantes</text>
+  </g>
+  <g id="Badge-Complet">
+    <rect id="fond-9" x="421.34375" y="1388" width="68.921875" height="24" fill="#FEE2E2" rx="12"/>
+    <text id="libelle-9" x="431.3" y="1404" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">Complet</text>
+  </g>
+  <g id="Badge-Coach">
+    <rect id="fond-10" x="502.265625" y="1388" width="57.5" height="24" fill="#FFF1EA" rx="12"/>
+    <text id="libelle-10" x="512.3" y="1404" font-family="Inter" font-size="12" font-weight="600" fill="#FF5A1F">Coach</text>
+  </g>
+  <text id="Cartes" x="80.0" y="1460" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Cartes</text>
+  <g id="Carte-séance-Vinyasa-Flow">
+    <rect id="fond-carte" x="80" y="1480" width="290" height="330" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="photo">
+      <rect id="visuel" x="92" y="1492" width="266" height="140" fill="#FFB38F" rx="12"/>
+      <circle cx="299.48" cy="1534.0" r="30.8" fill="#FFFFFF" fill-opacity="0.20"/>
+      <path d="M92 1601.2 Q185.1 1562.0 251.6 1592.8 T358 1576.0 V1620 Q358 1632 346 1632 H104 Q92 1632 92 1620 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    </g>
+    <g id="tag-activite">
+      <rect id="fond-11" x="104" y="1504" width="49.078125" height="24" fill="#FF5A1F" rx="12.0"/>
+      <text id="libelle-11" x="114.0" y="1520.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Yoga</text>
+    </g>
+    <g id="Bouton-favori">
+      <circle cx="330" cy="1520" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-164" transform="translate(321,1511) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre" x="100.0" y="1662" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Vinyasa Flow</text>
+    <g id="icone-pin-169" transform="translate(100,1676) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu" x="122.0" y="1689" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Zen Studio · Ixelles</text>
+    <g id="icone-cal-173" transform="translate(100,1700) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date" x="122.0" y="1713" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">mer. 14 oct. · 18:30</text>
+    <g id="places">
+      <rect id="fond-12" x="100" y="1728" width="126.453125" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-12" x="110.0" y="1744" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">6 places restantes</text>
+    </g>
+    <line x1="100" y1="1764" x2="350" y2="1764" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="prix" x="100.0" y="1792" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">15 €</text>
+    <g id="Bouton-Réserver-2">
+      <rect id="fond-13" x="240" y="1772" width="110" height="34" fill="#FF5A1F" rx="10"/>
+      <text id="libelle-13" x="264.6" y="1794.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+  <g id="Stat-Séances-à-venir">
+    <rect id="fond-14" x="390" y="1480" width="264" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect id="fond-icone" x="410" y="1502" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-cal-191" transform="translate(421,1513) scale(0.917)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="label-2" x="470.0" y="1520" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Séances à venir</text>
+    <text id="valeur" x="470.0" y="1552" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">3</text>
+  </g>
+  <g id="Icônes">
+    <text id="Icônes-(trait-2-px,-24-×-24)" x="700.0" y="1460" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Icônes (trait 2 px, 24 × 24)</text>
+    <rect x="700" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-search-200" transform="translate(722,1498) scale(1.000)">
+      <path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="search" x="717.8" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">search</text>
+    <rect x="784" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-pin-205" transform="translate(806,1498) scale(1.000)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="pin" x="810.6" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">pin</text>
+    <rect x="868" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-heart-210" transform="translate(890,1498) scale(1.000)">
+      <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="heart" x="889.4" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">heart</text>
+    <rect x="952" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-cal-215" transform="translate(974,1498) scale(1.000)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="cal" x="979.0" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">cal</text>
+    <rect x="1036" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-clock-220" transform="translate(1058,1498) scale(1.000)">
+      <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="clock" x="1057.2" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">clock</text>
+    <rect x="1120" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-user-225" transform="translate(1142,1498) scale(1.000)">
+      <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="user" x="1143.4" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">user</text>
+    <rect x="1204" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-home-230" transform="translate(1226,1498) scale(1.000)">
+      <path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="home" x="1224.6" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">home</text>
+    <rect x="1288" y="1484" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-star-235" transform="translate(1310,1498) scale(1.000)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#0F172A"/>
+    </g>
+    <text id="star" x="1312.8" y="1542" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">star</text>
+    <rect x="700" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-filter-240" transform="translate(722,1582) scale(1.000)">
+      <path d="M4 5h16l-6 8v6l-4-2v-4z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="filter" x="723.0" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">filter</text>
+    <rect x="784" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-list-245" transform="translate(806,1582) scale(1.000)">
+      <path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="list" x="811.1" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">list</text>
+    <rect x="868" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-chart-250" transform="translate(890,1582) scale(1.000)">
+      <path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="chart" x="889.5" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">chart</text>
+    <rect x="952" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-shield-255" transform="translate(974,1582) scale(1.000)">
+      <path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="shield" x="971.8" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">shield</text>
+    <rect x="1036" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-edit-260" transform="translate(1058,1582) scale(1.000)">
+      <path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="edit" x="1061.0" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">edit</text>
+    <rect x="1120" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-trash-265" transform="translate(1142,1582) scale(1.000)">
+      <path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="trash" x="1141.8" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">trash</text>
+    <rect x="1204" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-plus-270" transform="translate(1226,1582) scale(1.000)">
+      <path d="M12 5v14 M5 12h14" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="plus" x="1227.9" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">plus</text>
+    <rect x="1288" y="1568" width="68" height="68" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="icone-qr-275" transform="translate(1310,1582) scale(1.000)">
+      <path d="M4 4h6v6H4z M14 4h6v6h-6z M4 14h6v6H4z M14 14h2v2h-2z M18 18h2v2h-2z M14 18h2 M18 14h2" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="qr" x="1317.0" y="1626" font-family="Inter" font-size="10" font-weight="500" fill="#64748B">qr</text>
+  </g>
+</g>
+<g id="Grille-et-points-de-rupture">
+  <text id="4.-Mise-en-page-responsive-(" x="80.0" y="1880" font-family="Inter" font-size="24" font-weight="800" fill="#0F172A">4. Mise en page responsive (mobile first)</text>
+  <rect x="80" y="1910" width="120" height="110" fill="#FFF1EA" rx="12" stroke="#FF5A1F" stroke-width="1"/>
+  <rect x="88.0" y="1920" width="104.0" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <text id="Mobile-—-390-px" x="80.0" y="2052" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Mobile — 390 px</text>
+  <text id="1-colonne-·-marges-16-px" x="80.0" y="2076" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">1 colonne · marges 16 px</text>
+  <rect x="500" y="1910" width="210" height="110" fill="#FFF1EA" rx="12" stroke="#FF5A1F" stroke-width="1"/>
+  <rect x="508.0" y="1920" width="93.0" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <rect x="609.0" y="1920" width="93.0" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <text id="Tablette-—-834-px" x="500.0" y="2052" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Tablette — 834 px</text>
+  <text id="2–3-colonnes-·-menu-en-rail" x="500.0" y="2076" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">2–3 colonnes · menu en haut, tableaux en cartes</text>
+  <rect x="920" y="1910" width="330" height="110" fill="#FFF1EA" rx="12" stroke="#FF5A1F" stroke-width="1"/>
+  <rect x="928.0" y="1920" width="72.5" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <rect x="1008.5" y="1920" width="72.5" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <rect x="1089.0" y="1920" width="72.5" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <rect x="1169.5" y="1920" width="72.5" height="90" fill="#FF5A1F" fill-opacity="0.20" rx="6"/>
+  <text id="Desktop-—-1440-px" x="920.0" y="2052" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Desktop — 1440 px</text>
+  <text id="4-colonnes-·-contenu-1200-px" x="920.0" y="2076" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">4 colonnes · contenu 1200 px</text>
+  <text id="Points-de-rupture-CSS-:-640-" x="80.0" y="2116" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">Points de rupture CSS : 640 px (2 colonnes) · 768 px (tablette) · 1024 px (desktop) · 1280 px (grand écran). Rayons : 10 px champs/boutons · 16 px cartes · 24 px visuels.</text>
+</g>
+<g id="5. Nouveaux composants (octobre 2026)">
+<text id="titre-section-5" x="80.0" y="2200" font-family="Inter" font-size="24" font-weight="800" fill="#0F172A">5. Nouveaux composants (octobre 2026)</text>
+<text id="sous-titre-section-5" x="80.0" y="2228" font-family="Inter" font-size="14" font-weight="500" fill="#64748B">Accueil et connexion redessinés, site adapté à tous les écrans (320 → 1920 px).</text>
+<g id="5.1 Fond aurore">
+<rect x="80" y="2260" width="860" height="360" fill="url(#aurore-nuit)"/>
+<rect x="80" y="2260" width="860" height="360" fill="url(#aurore-orange)"/>
+<rect x="80" y="2260" width="860" height="360" fill="url(#aurore-rose)"/>
+<rect x="80" y="2260" width="860" height="360" fill="url(#aurore-violet)"/>
+<rect x="80" y="2260" width="860" height="360" fill="url(#points)" opacity="0.7"/>
+</g>
+<g id="Chip-⚡ La plateforme sportive de Bruxelles">
+<rect x="112" y="2292" width="241.7765625" height="26" rx="13.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="125.0" y="2309.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">⚡ La plateforme sportive de Bruxelles</text>
+</g>
+<text id="titre-blanc" x="112.0" y="2360" font-family="Inter" font-size="36" font-weight="800" fill="#FFFFFF">Votre prochaine séance</text>
+<text id="titre-dégradé" x="112.0" y="2402" font-family="Inter" font-size="36" font-weight="800" fill="url(#degrade-titre)">commence ici.</text>
+<g id="Carte-verre-1">
+<rect x="112" y="2440" width="230" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<rect x="124" y="2451" width="34" height="34" fill="#22C55E" rx="10"/>
+<g id="icone-check-2001" transform="translate(132.0,2459.0) scale(0.750)"><path d="M5 12l4 4l10-10" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="168.0" y="2465" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">Réservation confirmée</text>
+<text id="sous-titre" x="168.0" y="2482" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">Vinyasa Flow · ce soir 18:30</text>
+</g>
+<g id="Carte-verre-2">
+<rect x="360" y="2440" width="200" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<rect x="372" y="2451" width="34" height="34" fill="#FBBF24" rx="10"/>
+<g id="icone-star-2002" transform="translate(380.0,2459.0) scale(0.750)"><path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#0F172A"/></g>
+<text id="titre" x="416.0" y="2465" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">5 / 5</text>
+<text id="sous-titre" x="416.0" y="2482" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">Box Atomium · 1 avis</text>
+</g>
+<g id="Carte-verre-3">
+<rect x="578" y="2440" width="200" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<circle cx="606" cy="2468" r="16" fill="#FF5A1F" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="598.0" y="2472" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">NO</text>
+<circle cx="628" cy="2468" r="16" fill="#8B5CF6" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="620.7" y="2472" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">YB</text>
+<circle cx="650" cy="2468" r="16" fill="#0EA5E9" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="643.0" y="2472" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">KE</text>
+<text id="titre" x="678.0" y="2465" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">5 coachs</text>
+<text id="sous-titre" x="678.0" y="2482" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">à Bruxelles</text>
+</g>
+<g id="Formulaire-recherche (sans cadre)">
+<g id="Champ-Salle, coach, activité…">
+<rect x="112" y="2522" width="371.29999999999995" height="54" fill="#FFFFFF" fill-opacity="0.07" rx="14" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<g id="icone-search-2003" transform="translate(126,2540.0) scale(0.750)"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="156.0" y="2554.0" font-family="Inter" font-size="14" font-weight="400" fill="#94A3B8">Salle, coach, activité…</text>
+</g>
+<g id="Champ-Toutes les villes">
+<rect x="493.29999999999995" y="2522" width="229.1" height="54" fill="#FFFFFF" fill-opacity="0.07" rx="14" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<g id="icone-pin-2004" transform="translate(507.29999999999995,2540.0) scale(0.750)"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="537.3" y="2554.0" font-family="Inter" font-size="14" font-weight="400" fill="#E2E8F0">Toutes les villes</text>
+<path d="M698.4 2547.0 l5 5 l5 -5" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Bouton-Rechercher">
+<rect id="fond" x="732.4" y="2522" width="169.60000000000005" height="54" fill="url(#degrade-bouton)" rx="14"/>
+<text id="libelle" x="767.2" y="2554.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Rechercher</text>
+<g id="icone-chev-2005" transform="translate(852.2249999999999,2541.0) scale(0.667)"><path d="M9 6l6 6l-6 6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+<text id="légende-Fond aurore" x="980.0" y="2290" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Fond aurore</text>
+<text id="détail" x="980.0" y="2312" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">dégradé bleu nuit #070B1A → #0F1733 → #1B0F27 +</text>
+<text id="détail" x="980.0" y="2331" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">lueurs radiales orange (55 %), rose (32 %), violet</text>
+<text id="détail" x="980.0" y="2350" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">(20 %) + grille de points blancs 14 %</text>
+<text id="légende-Titre dégradé" x="980.0" y="2380" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Titre dégradé</text>
+<text id="détail" x="980.0" y="2402" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">#FF5A1F → #FF9A5A → #F472B6, animé (keyframe «</text>
+<text id="détail" x="980.0" y="2421" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">reflet »)</text>
+<text id="légende-Carte en verre" x="980.0" y="2470" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Carte en verre</text>
+<text id="détail" x="980.0" y="2492" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">blanc 8 % + bordure blanche 16 % + flou</text>
+<text id="détail" x="980.0" y="2511" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">d’arrière-plan 16 px, rayon 16-18 px, flottement 6-8</text>
+<text id="détail" x="980.0" y="2530" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">s</text>
+<text id="légende-Champ verre" x="980.0" y="2560" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Champ verre</text>
+<text id="détail" x="980.0" y="2582" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">blanc 7 %, bordure 18 %, hauteur 54 px, rayon 14 px</text>
+<text id="détail" x="980.0" y="2601" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">; focus : bordure orange + halo 22 %</text>
+<text id="titre-5.2" x="80.0" y="2680" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Connexion / inscription</text>
+<rect x="80" y="2700" width="860" height="300" fill="url(#fond-connexion)" rx="16"/>
+<g id="Interrupteur-Connexion-Inscription">
+<rect x="112" y="2732" width="380" height="48" fill="#F1F5F9" rx="14"/>
+<rect id="curseur" x="117" y="2737" width="185.0" height="38" rx="10" fill="url(#degrade-bouton)"/>
+<text id="onglet-Connexion" x="170.2" y="2761" font-family="Inter" font-size="14" font-weight="700" fill="#FFFFFF">Connexion</text>
+<text id="onglet-Inscription" x="360.3" y="2761" font-family="Inter" font-size="14" font-weight="700" fill="#64748B">Inscription</text>
+</g>
+<g id="Champ-Email">
+<text id="label" x="112.0" y="2812" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Email</text>
+<rect x="112" y="2820" width="380" height="48" fill="#F8FAFC" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+<g id="icone-user-2006" transform="translate(126,2835.0) scale(0.750)"><path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="156.0" y="2849.0" font-family="Inter" font-size="14" font-weight="400" fill="#94A3B8">vous@exemple.be</text>
+</g>
+<g id="Champ-Mot de passe">
+<text id="label" x="112.0" y="2894" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Mot de passe</text>
+<rect x="112" y="2902" width="380" height="48" fill="#F8FAFC" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+<g id="icone-shield-2007" transform="translate(126,2917.0) scale(0.750)"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="156.0" y="2931.0" font-family="Inter" font-size="14" font-weight="400" fill="#94A3B8">••••••••</text>
+<text id="action" x="428.2" y="2931.0" font-family="Inter" font-size="12.5" font-weight="700" fill="#FF5A1F">Afficher</text>
+</g>
+<g id="Bouton-Se connecter">
+<rect id="fond" x="530" y="2732" width="220" height="50" fill="url(#degrade-bouton)" rx="12"/>
+<text id="libelle" x="584.1" y="2762.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Se connecter</text>
+<g id="icone-chev-2008" transform="translate(680.8992187499999,2749.0) scale(0.667)"><path d="M9 6l6 6l-6 6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<g id="Rôle-Sportif">
+<rect x="530" y="2812" width="118" height="78" fill="#FFF1EA" rx="14" stroke="#FF5A1F" stroke-width="1.5"/>
+<rect x="572" y="2824" width="34" height="34" fill="#FF5A1F" rx="10"/>
+<g id="icone-user-2009" transform="translate(580,2832) scale(0.750)"><path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="libelle" x="567.2" y="2876" font-family="Inter" font-size="13" font-weight="700" fill="#0F172A">Sportif</text>
+</g>
+<g id="Rôle-Coach">
+<rect x="658" y="2812" width="118" height="78" fill="#FFFFFF" rx="14" stroke="#E2E8F0" stroke-width="1.5"/>
+<rect x="700" y="2824" width="34" height="34" fill="#F1F5F9" rx="10"/>
+<g id="icone-bolt-2010" transform="translate(708,2832) scale(0.750)"><path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="libelle" x="696.5" y="2876" font-family="Inter" font-size="13" font-weight="700" fill="#0F172A">Coach</text>
+</g>
+<g id="Rôle-Gérant">
+<rect x="786" y="2812" width="118" height="78" fill="#FFFFFF" rx="14" stroke="#E2E8F0" stroke-width="1.5"/>
+<rect x="828" y="2824" width="34" height="34" fill="#F1F5F9" rx="10"/>
+<g id="icone-home-2011" transform="translate(836,2832) scale(0.750)"><path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="libelle" x="823.5" y="2876" font-family="Inter" font-size="13" font-weight="700" fill="#0F172A">Gérant</text>
+</g>
+<text id="légende-Interrupteur" x="980.0" y="2720" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Interrupteur</text>
+<text id="détail" x="980.0" y="2742" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">le curseur orange glisse d’un onglet à l’autre</text>
+<text id="légende-Champ avec icône" x="980.0" y="2790" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Champ avec icône</text>
+<text id="détail" x="980.0" y="2812" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">icône à gauche, « Afficher » pour le mot de passe</text>
+<text id="légende-Bouton principal" x="980.0" y="2860" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Bouton principal</text>
+<text id="détail" x="980.0" y="2882" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">dégradé #FF5A1F → #FF7A3D, 50 px, flèche animée</text>
+<text id="légende-Choix du rôle" x="980.0" y="2930" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Choix du rôle</text>
+<text id="détail" x="980.0" y="2952" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">tuile active : fond #FFF1EA, bordure orange</text>
+<text id="titre-5.3" x="80.0" y="3060" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Espaces sur téléphone et tablette</text>
+<g id="Exemple-menu-espace-mobile" transform="translate(80,3080)">
+<rect x="0" y="0" width="390" height="310" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+<g id="Menu-espace (mobile / tablette : onglets à la ligne + barre utilisateur)">
+<rect id="fond-menu" x="0" y="0" width="390" height="310" fill="#FFFFFF" rx="0"/>
+<line x1="0" y1="310" x2="390" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+<g id="Logo">
+<rect id="logo-pastille" x="16" y="12" width="34" height="34" fill="#FF5A1F" rx="9"/>
+<g id="icone-bolt-951" transform="translate(23,19) scale(0.833)"><path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="logo-texte" x="60.0" y="36" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+</g>
+<g id="Badge-Espace coach">
+<rect x="16" y="58" width="111.8671875" height="30" fill="#FFF1EA" rx="8"/>
+<text id="libelle" x="28.0" y="78" font-family="Inter" font-size="13" font-weight="600" fill="#FF5A1F">Espace coach</text>
+</g>
+<g id="Onglets (passent à la ligne : tous visibles)">
+<rect id="onglet-actif" x="16" y="102" width="147.61875" height="40" fill="#FF5A1F" rx="10"/>
+<g id="icone-list-952" transform="translate(29,113) scale(0.750)"><path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Mes séances" x="55.0" y="128" font-family="Inter" font-size="15" font-weight="600" fill="#FFFFFF">Mes séances</text>
+<g id="icone-cal-953" transform="translate(182.61875,113) scale(0.750)"><path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Calendrier" x="208.6" y="128" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Calendrier</text>
+<g id="icone-user-954" transform="translate(29,159) scale(0.750)"><path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Réservations et avis" x="55.0" y="174" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Réservations et avis</text>
+<g id="icone-edit-955" transform="translate(231.0140625,159) scale(0.750)"><path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Profil pro" x="257.0" y="174" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Profil pro</text>
+<g id="icone-shield-956" transform="translate(29,205) scale(0.750)"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Mon compte" x="55.0" y="220" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Mon compte</text>
+<g id="icone-search-957" transform="translate(176.8515625,205) scale(0.750)"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="onglet-Rechercher" x="202.9" y="220" font-family="Inter" font-size="15" font-weight="500" fill="#0F172A">Rechercher</text>
+</g>
+<line x1="16" y1="248" x2="374" y2="248" stroke="#E2E8F0" stroke-width="1"/>
+<g id="Barre-utilisateur (avec Déconnexion)">
+<circle cx="34" cy="278" r="18" fill="#C4B5FD"/>
+<text id="initiales" x="25.6" y="283" font-family="Inter" font-size="12" font-weight="700" fill="#0F172A">YB</text>
+<text id="nom" x="62.0" y="275" font-family="Inter" font-size="14" font-weight="700" fill="#0F172A">Yasmina Benali</text>
+<text id="email" x="62.0" y="292" font-family="Inter" font-size="12" font-weight="400" fill="#64748B">yasmina.benali@fitbook.be</text>
+<rect id="bouton-déconnexion" x="338" y="260" width="36" height="36" fill="#FFF1EA" rx="10"/>
+<g id="icone-logout-958" transform="translate(347,269) scale(0.750)"><path d="M15 4h4v16h-4 M10 8l-4 4l4 4 M6 12h10" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+</g>
+<g id="Ligne-en-carte">
+<rect x="500" y="3080" width="360" height="232" fill="#FFFFFF" rx="12" stroke="#E2E8F0" stroke-width="1"/>
+<text id="étiquette-Titre" x="514.0" y="3111" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">TITRE</text>
+<text id="valeur-Titre" x="768.6" y="3112" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Réveil yoga</text>
+<line x1="514" y1="3124" x2="846" y2="3124" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3"/>
+<text id="étiquette-Date" x="514.0" y="3147" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">DATE</text>
+<text id="valeur-Date" x="725.8" y="3148" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">mer. 7 oct. · 07:30</text>
+<line x1="514" y1="3160" x2="846" y2="3160" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3"/>
+<text id="étiquette-Inscrits" x="514.0" y="3183" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">INSCRITS</text>
+<text id="valeur-Inscrits" x="810.2" y="3184" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">5 / 15</text>
+<line x1="514" y1="3196" x2="846" y2="3196" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3"/>
+<text id="étiquette-Remplissage" x="514.0" y="3219" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">REMPLISSAGE</text>
+<rect x="726" y="3211" width="120" height="7" fill="#E2E8F0" rx="4"/>
+<rect x="726" y="3211" width="40" height="7" rx="4" fill="url(#degrade-jauge)"/>
+<line x1="514" y1="3232" x2="846" y2="3232" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3"/>
+<text id="étiquette-Statut" x="514.0" y="3255" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">STATUT</text>
+<rect x="798.41875" y="3240" width="47.58125" height="24" fill="#DCFCE7" rx="12"/>
+<text id="badge" x="808.4" y="3256" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Actif</text>
+<line x1="514" y1="3268" x2="846" y2="3268" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="3 3"/>
+<text id="étiquette-Actions" x="514.0" y="3291" font-family="Inter" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.4">ACTIONS</text>
+<rect x="814" y="3271" width="32" height="32" fill="#FEE2E2" rx="9"/>
+<g id="icone-trash-2012" transform="translate(821,3278) scale(0.750)"><path d="M5 7h14 M10 7V4h4v3 M7 7l1 13h8l1-13" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="774" y="3271" width="32" height="32" fill="#FFF1EA" rx="9"/>
+<g id="icone-edit-2013" transform="translate(781,3278) scale(0.750)"><path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text id="légende-Menu des espaces" x="980.0" y="3100" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Menu des espaces</text>
+<text id="détail" x="980.0" y="3122" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">les onglets passent à la ligne : tous visibles</text>
+<text id="légende-Barre utilisateur" x="980.0" y="3164" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Barre utilisateur</text>
+<text id="détail" x="980.0" y="3186" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">nom, email et bouton Déconnexion toujours visibles</text>
+<text id="légende-Tableau en cartes" x="980.0" y="3228" font-family="Inter" font-size="15" font-weight="700" fill="#0F172A">Tableau en cartes</text>
+<text id="détail" x="980.0" y="3250" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">jusqu’à 1279 px : une carte par ligne, le titre</text>
+<text id="détail" x="980.0" y="3272" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">de colonne devant chaque valeur (2 cartes / ligne dès 768 px)</text>
+</g>
+</g>
+</svg>

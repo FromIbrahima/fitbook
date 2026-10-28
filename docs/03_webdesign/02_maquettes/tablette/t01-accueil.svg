@@ -1,0 +1,390 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="834" height="2302" viewBox="0 0 834 2302">
+<defs>
+  <radialGradient id="aurore-orange" cx="0.88" cy="0.08" r="0.62"><stop offset="0" stop-color="#FF5A1F" stop-opacity="0.55"/><stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-rose" cx="0.04" cy="1" r="0.6"><stop offset="0" stop-color="#EC4899" stop-opacity="0.32"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aurore-violet" cx="0.55" cy="0.55" r="0.45"><stop offset="0" stop-color="#6366F1" stop-opacity="0.20"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <linearGradient id="aurore-nuit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1A"/><stop offset="0.52" stop-color="#0F1733"/><stop offset="1" stop-color="#1B0F27"/></linearGradient>
+  <linearGradient id="degrade-titre" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.5" stop-color="#FF9A5A"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <linearGradient id="degrade-bouton" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#FF7A3D"/></linearGradient>
+  <linearGradient id="degrade-image" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="0.45" stop-color="#FF8A3D"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="degrade-jauge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <pattern id="points" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.14"/></pattern>
+  <linearGradient id="fond-connexion" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE7DC"/><stop offset="0.45" stop-color="#F6F7F9"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient>
+</defs>
+<g id="T01 - Accueil (Tablette)">
+<rect id="Fond" x="0" y="0" width="834" height="2302" fill="#F6F7F9"/>
+<g id="Header-tablette">
+  <rect id="fond-header" x="0" y="0" width="834" height="76" fill="#FFFFFF"/>
+  <line x1="0" y1="76" x2="834" y2="76" stroke="#E2E8F0" stroke-width="1"/>
+  <g id="Logo">
+    <rect id="logo-pastille" x="24" y="21" width="34" height="34" fill="#FF5A1F" rx="9"/>
+    <g id="icone-bolt-5" transform="translate(31,28) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte" x="68.0" y="45" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+  </g>
+  <g id="Navigation">
+    <text id="lien-Rechercher" x="196.0" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Rechercher</text>
+    <text id="lien-Salles" x="299.1" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Salles</text>
+    <text id="lien-Coachs" x="365.0" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Coachs</text>
+    <text id="lien-Séances" x="441.8" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Séances</text>
+  </g>
+  <text id="Connexion" x="596.0" y="44" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Connexion</text>
+  <g id="Bouton-S'inscrire">
+    <rect id="fond" x="690" y="20" width="120" height="38" fill="#FF5A1F" rx="10"/>
+    <text id="libelle" x="717.7" y="44.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">S'inscrire</text>
+  </g>
+</g>
+<g id="Hero">
+<g id="Fond-aurore">
+<rect x="0" y="77.0" width="834" height="795.0" fill="url(#aurore-nuit)"/>
+<rect x="0" y="77.0" width="834" height="795.0" fill="url(#aurore-orange)"/>
+<rect x="0" y="77.0" width="834" height="795.0" fill="url(#aurore-rose)"/>
+<rect x="0" y="77.0" width="834" height="795.0" fill="url(#aurore-violet)"/>
+<rect x="0" y="77.0" width="834" height="795.0" fill="url(#points)" opacity="0.7"/>
+</g>
+<g id="Chip-5 salles partenaires à Bruxelles">
+<rect x="24" y="121.0" width="205.8984375" height="26" rx="13.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="37.0" y="138.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">5 salles partenaires à Bruxelles</text>
+</g>
+<text id="titre-ligne-1" x="24.0" y="197.0" font-family="Inter" font-size="44" font-weight="800" fill="#FFFFFF">Trouvez votre salle,</text>
+<text id="titre-ligne-dégradé" x="24.0" y="246.0" font-family="Inter" font-size="44" font-weight="800" fill="url(#degrade-titre)">votre cours, votre coach.</text>
+<text id="accroche" x="24.0" y="284.0" font-family="Inter" font-size="16" font-weight="400" fill="#CBD5E1">Recherchez, comparez et réservez une séance de sport en quelques clics.</text>
+<g id="Formulaire-recherche (sans cadre)">
+<g id="Champ-Salle, coach, activité…">
+<rect x="24" y="308.0" width="369.41999999999996" height="54" fill="#FFFFFF" fill-opacity="0.07" rx="14" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<g id="icone-search-501" transform="translate(38,326.0) scale(0.750)"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="68.0" y="340.0" font-family="Inter" font-size="14" font-weight="400" fill="#94A3B8">Salle, coach, activité…</text>
+</g>
+<g id="Champ-Toutes les villes">
+<rect x="403.41999999999996" y="308.0" width="227.94" height="54" fill="#FFFFFF" fill-opacity="0.07" rx="14" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<g id="icone-pin-502" transform="translate(417.41999999999996,326.0) scale(0.750)"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="texte-indicatif" x="447.4" y="340.0" font-family="Inter" font-size="14" font-weight="400" fill="#E2E8F0">Toutes les villes</text>
+<path d="M607.3599999999999 333.0 l5 5 l5 -5" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Bouton-Rechercher">
+<rect id="fond" x="641.3599999999999" y="308.0" width="168.64000000000004" height="54" fill="url(#degrade-bouton)" rx="14"/>
+<text id="libelle" x="675.7" y="340.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Rechercher</text>
+<g id="icone-chev-503" transform="translate(760.7049999999999,327.0) scale(0.667)"><path d="M9 6l6 6l-6 6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g id="Activités-rapides">
+<g id="Chip-Yoga">
+<rect x="24" y="382.0" width="57.503125" height="30" rx="15.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="37.0" y="401.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Yoga</text>
+</g>
+<g id="Chip-Boxe">
+<rect x="89.503125" y="382.0" width="57.0203125" height="30" rx="15.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="102.5" y="401.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Boxe</text>
+</g>
+<g id="Chip-Pilates">
+<rect x="154.5234375" y="382.0" width="67.9484375" height="30" rx="15.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="167.5" y="401.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Pilates</text>
+</g>
+<g id="Chip-CrossFit">
+<rect x="230.471875" y="382.0" width="78.284375" height="30" rx="15.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="243.5" y="401.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">CrossFit</text>
+</g>
+<g id="Chip-Méditation">
+<rect x="316.75625" y="382.0" width="93.1734375" height="30" rx="15.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text id="libelle" x="329.8" y="401.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Méditation</text>
+</g>
+</g>
+<g id="Chiffres">
+<rect x="24" y="442.0" width="2" height="52" fill="#FF5A1F" rx="1"/>
+<text id="chiffre-salles" x="38.0" y="470.0" font-family="Inter" font-size="30" font-weight="800" fill="#FFFFFF">5</text>
+<text id="libelle-salles" x="38.0" y="492.0" font-family="Inter" font-size="14" font-weight="400" fill="#CBD5E1">salles</text>
+<rect x="109.5828125" y="442.0" width="2" height="52" fill="#FF5A1F" rx="1"/>
+<text id="chiffre-coachs" x="123.6" y="470.0" font-family="Inter" font-size="30" font-weight="800" fill="#FFFFFF">5</text>
+<text id="libelle-coachs" x="123.6" y="492.0" font-family="Inter" font-size="14" font-weight="400" fill="#CBD5E1">coachs</text>
+<rect x="205.640625" y="442.0" width="2" height="52" fill="#FF5A1F" rx="1"/>
+<text id="chiffre-séances à venir" x="219.6" y="470.0" font-family="Inter" font-size="30" font-weight="800" fill="#FFFFFF">31</text>
+<text id="libelle-séances à venir" x="219.6" y="492.0" font-family="Inter" font-size="14" font-weight="400" fill="#CBD5E1">séances à venir</text>
+</g>
+<g id="Scène-cartes-en-verre">
+<g id="Carte-séance-en-vedette">
+<rect x="24" y="532.0" width="385.0" height="300" rx="18" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<clipPath id="decoupe-image-504"><rect x="38" y="546.0" width="357.0" height="150" rx="12"/></clipPath>
+<g id="Image-dégradé" clip-path="url(#decoupe-image-504)">
+<rect x="38" y="546.0" width="357.0" height="150" rx="12" fill="url(#degrade-image)"/>
+<circle cx="330.74" cy="584.0" r="62" fill="#FFFFFF" fill-opacity="0.18"/>
+<circle cx="87.98" cy="690.0" r="78" fill="#FFFFFF" fill-opacity="0.1"/>
+<path d="M38 654.0 C 109.4 618.0, 173.66 681.0, 245.05999999999997 639.0 S 359.3 609.0, 395.0 630.0 L395.0 684.0 Q395.0 696.0 383.0 696.0 L50 696.0 Q38 696.0 38 684.0 Z" fill="#0F172A" fill-opacity="0.18"/>
+<path d="M38 672.0 C 116.54 645.0, 187.94 696.0, 270.05 661.5 S 366.44 645.0, 395.0 657.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+</g>
+<g id="Chip-Pilates">
+<rect x="48" y="556.0" width="62" height="26" fill="#0F172A" fill-opacity="0.55" rx="13"/>
+<text id="libelle" x="60.0" y="574.0" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Pilates</text>
+</g>
+<text id="titre-séance" x="42.0" y="726.0" font-family="Inter" font-size="19" font-weight="800" fill="#FFFFFF">Pilates Core</text>
+<text id="lieu-date" x="42.0" y="748.0" font-family="Inter" font-size="13" font-weight="400" fill="#CBD5E1">Move Center · mer. 21 oct. · 12:15</text>
+<rect x="42" y="764.0" width="349.0" height="6" fill="#FFFFFF" fill-opacity="0.15" rx="3"/>
+<rect x="42" y="764.0" width="115" height="6" rx="3" fill="url(#degrade-jauge)"/>
+<text id="places" x="42.0" y="802.0" font-family="Inter" font-size="13" font-weight="400" fill="#CBD5E1">10 places restantes</text>
+<g id="Bouton-Réserver">
+<rect id="fond" x="299.0" y="782.0" width="92" height="32" fill="url(#degrade-bouton)" rx="9"/>
+<text id="libelle" x="316.8" y="802.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+</g>
+</g>
+<g id="Carte-note">
+<rect x="425.0" y="532.0" width="385.0" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<rect x="437.0" y="543.0" width="34" height="34" fill="#FBBF24" rx="10"/>
+<g id="icone-star-505" transform="translate(445.0,551.0) scale(0.750)"><path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#0F172A"/></g>
+<text id="titre" x="481.0" y="557.0" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">5 / 5</text>
+<text id="sous-titre" x="481.0" y="574.0" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">Box Atomium · 1 avis</text>
+</g>
+<g id="Carte-réservation-confirmée">
+<rect x="425.0" y="600.0" width="385.0" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<rect x="437.0" y="611.0" width="34" height="34" fill="#22C55E" rx="10"/>
+<g id="icone-check-506" transform="translate(445.0,619.0) scale(0.750)"><path d="M5 12l4 4l10-10" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text id="titre" x="481.0" y="625.0" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">Réservation confirmée</text>
+<text id="sous-titre" x="481.0" y="642.0" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">QR code envoyé par email</text>
+</g>
+<g id="Carte-coachs">
+<rect x="425.0" y="668.0" width="385.0" height="56" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1"/>
+<circle cx="453.0" cy="696.0" r="16" fill="#FF5A1F" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="445.0" y="700.0" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">NO</text>
+<circle cx="475.0" cy="696.0" r="16" fill="#8B5CF6" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="467.7" y="700.0" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">YB</text>
+<circle cx="497.0" cy="696.0" r="16" fill="#0EA5E9" stroke="#1B1F3A" stroke-width="2"/>
+<text id="initiales" x="490.0" y="700.0" font-family="Inter" font-size="10.5" font-weight="700" fill="#FFFFFF">KE</text>
+<text id="titre" x="525.0" y="693.0" font-family="Inter" font-size="13.5" font-weight="700" fill="#FFFFFF">5 coachs</text>
+<text id="sous-titre" x="525.0" y="710.0" font-family="Inter" font-size="11.5" font-weight="400" fill="#CBD5E1">à Bruxelles</text>
+</g>
+</g>
+</g>
+<g id="décalage-Section-activités" transform="translate(0,252)">
+<g id="Section-activités">
+  <text id="Activités-populaires" x="24.0" y="680" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">Activités populaires</text>
+  <text id="Tout-voir" x="745.5" y="680" font-family="Inter" font-size="15" font-weight="700" fill="#FF5A1F">Tout voir</text>
+  <g id="Activité-Boxe">
+    <rect id="fond-9" x="24.0" y="706" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="44.0" y="724" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-90" transform="translate(55.0,735) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Boxe" x="44.0" y="794" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Boxe</text>
+    <text id="9-séances" x="44.0" y="813" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">9 séances</text>
+  </g>
+  <g id="Activité-CrossFit">
+    <rect id="fond-10" x="291.33333333333337" y="706" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="311.33333333333337" y="724" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-99" transform="translate(322.33333333333337,735) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="CrossFit" x="311.3" y="794" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">CrossFit</text>
+    <text id="8-séances" x="311.3" y="813" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">8 séances</text>
+  </g>
+  <g id="Activité-Méditation">
+    <rect id="fond-11" x="558.6666666666667" y="706" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="578.6666666666667" y="724" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-108" transform="translate(589.6666666666667,735) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Méditation" x="578.7" y="794" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Méditation</text>
+    <text id="5-séances" x="578.7" y="813" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">5 séances</text>
+  </g>
+  <g id="Activité-Musculation">
+    <rect id="fond-12" x="24.0" y="842" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="44.0" y="860" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-117" transform="translate(55.0,871) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Musculation" x="44.0" y="930" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Musculation</text>
+    <text id="4-séances" x="44.0" y="949" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">4 séances</text>
+  </g>
+  <g id="Activité-Pilates">
+    <rect id="fond-13" x="291.33333333333337" y="842" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="311.33333333333337" y="860" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-126" transform="translate(322.33333333333337,871) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Pilates" x="311.3" y="930" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Pilates</text>
+    <text id="4-séances-2" x="311.3" y="949" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">4 séances</text>
+  </g>
+  <g id="Activité-Running">
+    <rect id="fond-14" x="558.6666666666667" y="842" width="251.33333333333334" height="120" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="578.6666666666667" y="860" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-bolt-135" transform="translate(589.6666666666667,871) scale(0.917)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Running" x="578.7" y="930" font-family="Inter" font-size="16" font-weight="700" fill="#0F172A">Running</text>
+    <text id="4-séances-3" x="578.7" y="949" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">4 séances</text>
+  </g>
+</g>
+</g>
+<g id="décalage-Section-séances-à-venir" transform="translate(0,252)">
+<g id="Section-séances-à-venir">
+  <text id="Séances-à-venir" x="24.0" y="1030" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">Séances à venir</text>
+  <g id="Carte-séance-Spinning-45">
+    <rect id="fond-carte" x="24" y="1056" width="385" height="330" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="photo">
+      <rect id="visuel" x="36" y="1068" width="361" height="140" fill="#FFB38F" rx="12"/>
+      <circle cx="317.58" cy="1110.0" r="30.8" fill="#FFFFFF" fill-opacity="0.20"/>
+      <path d="M36 1177.2 Q162.35 1138.0 252.6 1168.8 T397 1152.0 V1196 Q397 1208 385 1208 H48 Q36 1208 36 1196 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    </g>
+    <g id="tag-activite">
+      <rect id="fond-15" x="48" y="1080" width="71.109375" height="24" fill="#FF5A1F" rx="12.0"/>
+      <text id="libelle-9" x="58.0" y="1096.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Spinning</text>
+    </g>
+    <g id="Bouton-favori">
+      <circle cx="369" cy="1096" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-157" transform="translate(360,1087) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre" x="44.0" y="1238" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Spinning 45</text>
+    <g id="icone-pin-162" transform="translate(44,1252) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu" x="66.0" y="1265" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Move Center · Uccle</text>
+    <g id="icone-cal-166" transform="translate(44,1276) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date" x="66.0" y="1289" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">mer. 7 oct. · 18:15</text>
+    <g id="places">
+      <rect id="fond-16" x="44" y="1304" width="131.5" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-10" x="54.0" y="1320" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">13 places restantes</text>
+    </g>
+    <line x1="44" y1="1340" x2="389" y2="1340" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="prix" x="44.0" y="1368" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">11 €</text>
+    <g id="Bouton-Réserver">
+      <rect id="fond-17" x="279" y="1348" width="110" height="34" fill="#FF5A1F" rx="10"/>
+      <text id="libelle-11" x="303.6" y="1370.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+  <g id="Carte-séance-Boxe-débutant">
+    <rect id="fond-carte-2" x="425" y="1056" width="385" height="330" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="photo-2">
+      <rect id="visuel-2" x="437" y="1068" width="361" height="140" fill="#FCA5A5" rx="12"/>
+      <circle cx="718.5799999999999" cy="1110.0" r="30.8" fill="#FFFFFF" fill-opacity="0.20"/>
+      <path d="M437 1177.2 Q563.35 1138.0 653.6 1168.8 T798 1152.0 V1196 Q798 1208 786 1208 H449 Q437 1208 437 1196 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    </g>
+    <g id="tag-activite-2">
+      <rect id="fond-18" x="449" y="1080" width="48.640625" height="24" fill="#FF5A1F" rx="12.0"/>
+      <text id="libelle-12" x="459.0" y="1096.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Boxe</text>
+    </g>
+    <g id="Bouton-favori-2">
+      <circle cx="770" cy="1096" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-194" transform="translate(761,1087) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre-2" x="445.0" y="1238" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Boxe débutant</text>
+    <g id="icone-pin-199" transform="translate(445,1252) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu-2" x="467.0" y="1265" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Ring Club · Saint-Gilles</text>
+    <g id="icone-cal-203" transform="translate(445,1276) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date-2" x="467.0" y="1289" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">mer. 7 oct. · 19:00</text>
+    <g id="places-2">
+      <rect id="fond-19" x="445" y="1304" width="68.921875" height="24" fill="#DCFCE7" rx="12"/>
+      <text id="libelle-13" x="455.0" y="1320" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Complet</text>
+    </g>
+    <line x1="445" y1="1340" x2="790" y2="1340" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="prix-2" x="445.0" y="1368" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">12 €</text>
+    <g id="Bouton-Réserver-2">
+      <rect id="fond-20" x="680" y="1348" width="110" height="34" fill="#FF5A1F" rx="10"/>
+      <text id="libelle-14" x="704.6" y="1370.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+</g>
+</g>
+<g id="décalage-Section-salles" transform="translate(0,252)">
+<g id="Section-salles">
+  <text id="Salles-les-mieux-notées" x="24.0" y="1450" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">Salles les mieux notées</text>
+  <g id="Carte-salle-Box-Atomium">
+    <rect id="fond-carte-3" x="24" y="1476" width="385" height="290" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="photo-3">
+      <rect id="visuel-3" x="36" y="1488" width="361" height="150" fill="#93C5FD" rx="12"/>
+      <circle cx="317.58" cy="1533.0" r="33.0" fill="#FFFFFF" fill-opacity="0.20"/>
+      <path d="M36 1605.0 Q162.35 1563.0 252.6 1596.0 T397 1578.0 V1626 Q397 1638 385 1638 H48 Q36 1638 36 1626 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    </g>
+    <text id="nom" x="44.0" y="1668" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Box Atomium</text>
+    <g id="icone-pin-229" transform="translate(44,1680) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="ville" x="66.0" y="1693" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Laeken</text>
+    <g id="Note-étoiles">
+      <g id="icone-star-234" transform="translate(44,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-237" transform="translate(60,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-240" transform="translate(76,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-243" transform="translate(92,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-246" transform="translate(108,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+    </g>
+    <text id="note" x="136.0" y="1725" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">5.0 (1 avis)</text>
+    <text id="lien" x="44.0" y="1750" font-family="Inter" font-size="14" font-weight="700" fill="#FF5A1F">Voir la salle</text>
+    <g id="icone-chev-252" transform="translate(132,1737) scale(0.667)">
+      <path d="M9 6l6 6l-6 6" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="Carte-salle-Move-Center">
+    <rect id="fond-carte-4" x="425" y="1476" width="385" height="290" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="photo-4">
+      <rect id="visuel-4" x="437" y="1488" width="361" height="150" fill="#86EFAC" rx="12"/>
+      <circle cx="718.5799999999999" cy="1533.0" r="33.0" fill="#FFFFFF" fill-opacity="0.20"/>
+      <path d="M437 1605.0 Q563.35 1563.0 653.6 1596.0 T798 1578.0 V1626 Q798 1638 786 1638 H449 Q437 1638 437 1626 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    </g>
+    <text id="nom-2" x="445.0" y="1668" font-family="Inter" font-size="17" font-weight="700" fill="#0F172A">Move Center</text>
+    <g id="icone-pin-264" transform="translate(445,1680) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="ville-2" x="467.0" y="1693" font-family="Inter" font-size="13" font-weight="400" fill="#64748B">Uccle</text>
+    <g id="Note-étoiles-2">
+      <g id="icone-star-269" transform="translate(445,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-272" transform="translate(461,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-275" transform="translate(477,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-278" transform="translate(493,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+      <g id="icone-star-281" transform="translate(509,1712) scale(0.583)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#F59E0B"/>
+      </g>
+    </g>
+    <text id="note-2" x="537.0" y="1725" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">5.0 (1 avis)</text>
+    <text id="lien-2" x="445.0" y="1750" font-family="Inter" font-size="14" font-weight="700" fill="#FF5A1F">Voir la salle</text>
+    <g id="icone-chev-287" transform="translate(533,1737) scale(0.667)">
+      <path d="M9 6l6 6l-6 6" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</g>
+</g>
+<g id="décalage-Footer" transform="translate(0,252)">
+<g id="Footer">
+  <rect id="fond-footer" x="0" y="1870" width="834" height="180" fill="#0F172A"/>
+  <g id="Logo-2">
+    <rect id="logo-pastille-2" x="24" y="1910" width="34" height="34" fill="#FF5A1F" rx="9"/>
+    <g id="icone-bolt-296" transform="translate(31,1917) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte-2" x="68.0" y="1934" font-family="Inter" font-size="22" font-weight="800" fill="#FFFFFF">FitBook</text>
+  </g>
+  <text id="Plateforme" x="330.0" y="1930" font-family="Inter" font-size="14" font-weight="700" fill="#FFFFFF">Plateforme</text>
+  <text id="Rechercher" x="330.0" y="1958" font-family="Inter" font-size="13" font-weight="400" fill="#94A3B8">Rechercher</text>
+  <text id="Professionnels" x="500.0" y="1930" font-family="Inter" font-size="14" font-weight="700" fill="#FFFFFF">Professionnels</text>
+  <text id="Devenir-coach" x="500.0" y="1958" font-family="Inter" font-size="13" font-weight="400" fill="#94A3B8">Devenir coach</text>
+  <text id="Aide" x="670.0" y="1930" font-family="Inter" font-size="14" font-weight="700" fill="#FFFFFF">Aide</text>
+  <text id="Contact" x="670.0" y="1958" font-family="Inter" font-size="13" font-weight="400" fill="#94A3B8">Contact</text>
+  <text id="©-2026-FitBook-—-Projet-UAA-" x="24.0" y="2022" font-family="Inter" font-size="12" font-weight="400" fill="#94A3B8">© 2026 FitBook — Projet UAA MI08</text>
+</g>
+</g>
+</g>
+</svg>
