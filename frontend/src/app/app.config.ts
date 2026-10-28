@@ -1,0 +1,14 @@
+import { ApplicationConfig, LOCALE_ID, provideBrowserGlobalErrorListeners } from '@angular/core';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { provideRouter, withComponentInputBinding, withInMemoryScrolling } from '@angular/router';
+import { authInterceptor } from './core/auth.interceptor';
+import { routes } from './app.routes';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideBrowserGlobalErrorListeners(),
+    provideRouter(routes, withComponentInputBinding(), withInMemoryScrolling({ scrollPositionRestoration: 'top' })),
+    provideHttpClient(withInterceptors([authInterceptor])),
+    { provide: LOCALE_ID, useValue: 'fr' },
+  ],
+};
