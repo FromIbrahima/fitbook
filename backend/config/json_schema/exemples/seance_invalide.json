@@ -1,0 +1,11 @@
+{
+  "titre": "Yo",
+  "activiteId": "1",
+  "salleId": 1,
+  "dateDebut": "19/10/2026",
+  "dateFin": "2026-10-19T19:30",
+  "capaciteMax": 0,
+  "prix": -3,
+  "niveau": "EXPERT",
+  "champPirate": true
+}

@@ -1,0 +1,9 @@
+# Utile seulement si le backend est servi par Apache (WAMP / XAMPP) au lieu de « php -S ».
+# Sans ces lignes, Apache ne transmet pas l'en-tête Authorization à PHP → « Authentification requise ».
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:Authorization} .+
+    RewriteRule ^ - [E=HTTP_AUTHORIZATION:%0]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
