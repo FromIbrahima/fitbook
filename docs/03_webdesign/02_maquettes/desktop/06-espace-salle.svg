@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1180" viewBox="0 0 1440 1180">
+<g id="06 - Espace salle - gestionnaire (Desktop)">
+<rect id="Fond" x="0" y="0" width="1440" height="1180" fill="#F6F7F9"/>
+<g id="Sidebar">
+  <rect id="fond-sidebar" x="0" y="0" width="260" height="1180" fill="#FFFFFF"/>
+  <line x1="260" y1="0" x2="260" y2="1180" stroke="#E2E8F0" stroke-width="1"/>
+  <g id="Logo">
+    <rect id="logo-pastille" x="28" y="26" width="34" height="34" fill="#FF5A1F" rx="9"/>
+    <g id="icone-bolt-5" transform="translate(35,33) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte" x="72.0" y="50" font-family="Inter" font-size="22" font-weight="800" fill="#0F172A">FitBook</text>
+  </g>
+  <g id="Rôle">
+    <rect id="fond" x="28" y="86" width="204" height="30" fill="#FFF1EA" rx="8"/>
+    <text id="libelle" x="40.0" y="106" font-family="Inter" font-size="13" font-weight="700" fill="#FF5A1F">Espace salle</text>
+  </g>
+  <g id="Menu">
+    <g id="Menu-Ma-salle">
+      <rect id="fond-actif" x="16" y="142" width="228" height="42" fill="#FF5A1F" rx="10"/>
+      <g id="icone-home-17" transform="translate(32,153) scale(0.833)">
+        <path d="M4 11l8-7l8 7v9h-5v-6H9v6H4z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-2" x="64.0" y="168" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Ma salle</text>
+    </g>
+    <g id="Menu-Cours-et-horaires">
+      <g id="icone-list-23" transform="translate(32,201) scale(0.833)">
+        <path d="M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-3" x="64.0" y="216" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Cours et horaires</text>
+    </g>
+    <g id="Menu-Calendrier">
+      <g id="icone-cal-29" transform="translate(32,249) scale(0.833)">
+        <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-4" x="64.0" y="264" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Calendrier</text>
+    </g>
+    <g id="Menu-Réservations-et-avis">
+      <g id="icone-user-35" transform="translate(32,297) scale(0.833)">
+        <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-5" x="64.0" y="312" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Réservations et avis</text>
+    </g>
+    <g id="Menu-Mon-compte">
+      <g id="icone-shield-41" transform="translate(32,345) scale(0.833)">
+        <path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6z" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="libelle-6" x="64.0" y="360" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Mon compte</text>
+    </g>
+  </g>
+  <g id="Profil-bas">
+    <line x1="16" y1="1096" x2="244" y2="1096" stroke="#E2E8F0" stroke-width="1"/>
+    <g id="Avatar-MB">
+      <circle cx="48" cy="1136" r="18" fill="#C4B5FD"/>
+      <text id="initiales" x="38.2" y="1141.76" font-family="Inter" font-size="14" font-weight="700" fill="#0F172A">MB</text>
+    </g>
+    <text id="Mamadou-Barry" x="76.0" y="1132" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Mamadou Barry</text>
+    <text id="Gérant-·-Zen-Studio" x="76.0" y="1150" font-family="Inter" font-size="12" font-weight="400" fill="#64748B">Gérant · Zen Studio</text>
+    <g id="icone-logout-55" transform="translate(212,1126) scale(0.833)">
+      <path d="M15 4h4v16h-4 M10 8l-4 4l4 4 M6 12h10" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</g>
+<g id="Barre-de-titre">
+  <text id="titre-page" x="300.0" y="64" font-family="Inter" font-size="28" font-weight="800" fill="#0F172A">Ma salle</text>
+  <text id="sous-titre" x="300.0" y="92" font-family="Inter" font-size="15" font-weight="400" fill="#64748B">Informations publiques, équipements et capacités.</text>
+</g>
+<g id="Formulaire-salle">
+  <rect id="fond-2" x="300" y="124" width="700" height="640" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="Informations-de-la-salle" x="324.0" y="168" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Informations de la salle</text>
+  <g id="Champ-nom">
+    <text id="label" x="324.0" y="204" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Nom de la salle</text>
+    <rect id="champ" x="324" y="212" width="652" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder" x="338.0" y="239.0" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Zen Studio</text>
+  </g>
+  <g id="Champ-adresse">
+    <text id="label-2" x="324.0" y="282" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Adresse</text>
+    <rect id="champ-2" x="324" y="290" width="420" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder-2" x="338.0" y="317.0" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Rue du Bailli 42</text>
+  </g>
+  <g id="Champ-code-postal">
+    <text id="label-3" x="756.0" y="282" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Code postal</text>
+    <rect id="champ-3" x="756" y="290" width="220" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder-3" x="770.0" y="317.0" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">1050</text>
+  </g>
+  <g id="Champ-ville">
+    <text id="label-4" x="324.0" y="360" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Ville</text>
+    <rect id="champ-4" x="324" y="368" width="320" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder-4" x="338.0" y="395.0" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Ixelles</text>
+  </g>
+  <g id="Champ-téléphone">
+    <text id="label-5" x="656.0" y="360" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Téléphone</text>
+    <rect id="champ-5" x="656" y="368" width="320" height="44" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="placeholder-5" x="670.0" y="395.0" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">02 345 67 89</text>
+  </g>
+  <g id="Champ-description">
+    <text id="Description" x="324.0" y="438" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Description</text>
+    <rect x="324" y="446" width="652" height="110" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="Un-studio-lumineux-de-400-m²" x="340.0" y="474" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">Un studio lumineux de 400 m² dédié au yoga, au pilates</text>
+    <text id="et-à-la-méditation." x="340.0" y="496" font-family="Inter" font-size="14" font-weight="400" fill="#0F172A">et à la méditation.</text>
+  </g>
+  <text id="Équipements" x="324.0" y="588" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Équipements</text>
+  <g id="Chip-Vestiaires--×">
+    <rect id="fond-3" x="324" y="600" width="91.46875" height="24" fill="#FF5A1F" rx="12.0"/>
+    <text id="libelle-7" x="334.0" y="616.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Vestiaires  ×</text>
+  </g>
+  <g id="Chip-Douches--×">
+    <rect id="fond-4" x="423.46875" y="600" width="85.484375" height="24" fill="#FF5A1F" rx="12.0"/>
+    <text id="libelle-8" x="433.5" y="616.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Douches  ×</text>
+  </g>
+  <g id="Chip-Tapis-fournis--×">
+    <rect id="fond-5" x="516.953125" y="600" width="109.34375" height="24" fill="#FF5A1F" rx="12.0"/>
+    <text id="libelle-9" x="527.0" y="616.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Tapis fournis  ×</text>
+  </g>
+  <g id="Chip-Wi-Fi--×">
+    <rect id="fond-6" x="634.296875" y="600" width="65.296875" height="24" fill="#FF5A1F" rx="12.0"/>
+    <text id="libelle-10" x="644.3" y="616.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Wi-Fi  ×</text>
+  </g>
+  <g id="Chip-Parking-vélo--×">
+    <rect id="fond-7" x="707.59375" y="600" width="105.828125" height="24" fill="#FF5A1F" rx="12.0"/>
+    <text id="libelle-11" x="717.6" y="616.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Parking vélo  ×</text>
+  </g>
+  <g id="Bouton-Enregistrer">
+    <rect id="fond-8" x="324" y="690" width="180" height="46" fill="#FF5A1F" rx="10"/>
+    <text id="libelle-12" x="376.6" y="718.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Enregistrer</text>
+  </g>
+  <g id="Bouton-Annuler">
+    <rect id="fond-9" x="516" y="690" width="140" height="46" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="libelle-13" x="559.3" y="718.04" font-family="Inter" font-size="14" font-weight="600" fill="#0F172A">Annuler</text>
+  </g>
+</g>
+<g id="Aperçu">
+  <rect id="fond-10" x="1020" y="124" width="380" height="640" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+  <text id="Aperçu-public" x="1044.0" y="168" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Aperçu public</text>
+  <g id="Photo-salle">
+    <rect id="visuel" x="1044" y="188" width="332" height="180" fill="#93C5FD" rx="12"/>
+    <circle cx="1302.96" cy="242.0" r="39.6" fill="#FFFFFF" fill-opacity="0.20"/>
+    <path d="M1044 328.4 Q1160.2 278.0 1243.2 317.6 T1376 296.0 V356 Q1376 368 1364 368 H1056 Q1044 368 1044 356 Z" fill="#FFFFFF" fill-opacity="0.25"/>
+    <text id="legende" x="1191.7" y="283.0" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF" fill-opacity="0.80">Photo</text>
+  </g>
+  <g id="Bouton-Changer-la-photo">
+    <rect id="fond-11" x="1044" y="380" width="332" height="40" fill="#FFFFFF" rx="10" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="libelle-14" x="1156.1" y="404.68" font-family="Inter" font-size="13" font-weight="600" fill="#0F172A">Changer la photo</text>
+  </g>
+  <g id="Stat-Réservations-ce-mois">
+    <rect id="fond-12" x="1044" y="440" width="332" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect id="fond-icone" x="1064" y="462" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-user-144" transform="translate(1075,473) scale(0.917)">
+      <path d="M12 12a4 4 0 1 0 0-8a4 4 0 1 0 0 8z M4 21c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="label-6" x="1124.0" y="480" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Réservations ce mois</text>
+    <text id="valeur" x="1124.0" y="512" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">312</text>
+    <text id="evolution" x="1064.0" y="538" font-family="Inter" font-size="12" font-weight="500" fill="#16A34A">+8 %</text>
+  </g>
+  <g id="Stat-Taux-de-remplissage">
+    <rect id="fond-13" x="1044" y="568" width="332" height="112" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <rect id="fond-icone-2" x="1064" y="590" width="44" height="44" fill="#FFF1EA" rx="12"/>
+    <g id="icone-chart-154" transform="translate(1075,601) scale(0.917)">
+      <path d="M4 20V10 M10 20V4 M16 20v-7 M22 20H2" fill="none" stroke="#FF5A1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="label-7" x="1124.0" y="608" font-family="Inter" font-size="13" font-weight="500" fill="#64748B">Taux de remplissage</text>
+    <text id="valeur-2" x="1124.0" y="640" font-family="Inter" font-size="26" font-weight="800" fill="#0F172A">76 %</text>
+  </g>
+</g>
+<g id="Cours-de-la-salle">
+  <g id="Tableau-Cours-de-la-salle">
+    <rect id="fond-14" x="300" y="788" width="1100" height="294" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="1"/>
+    <text id="titre" x="324.0" y="830" font-family="Inter" font-size="18" font-weight="800" fill="#0F172A">Cours de la salle</text>
+    <g id="En-têtes">
+      <rect id="fond-entetes" x="301" y="858" width="1098" height="44" fill="#F6F7F9"/>
+      <text id="th-Cours" x="324.0" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">COURS</text>
+      <text id="th-Activité" x="577.5" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">ACTIVITÉ</text>
+      <text id="th-Coach" x="742.3" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">COACH</text>
+      <text id="th-Créneau" x="932.4" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">CRÉNEAU</text>
+      <text id="th-Capacité" x="1122.5" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">CAPACITÉ</text>
+      <text id="th-Statut" x="1249.3" y="885" font-family="Inter" font-size="11" font-weight="700" fill="#64748B">STATUT</text>
+    </g>
+    <g id="Ligne-1">
+      <text id="cellule" x="324.0" y="935.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Vinyasa Flow</text>
+      <text id="cellule-2" x="577.5" y="935.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Yoga</text>
+      <text id="cellule-3" x="742.3" y="935.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Yasmina B.</text>
+      <text id="cellule-4" x="932.4" y="935.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Lun · 18:30</text>
+      <text id="cellule-5" x="1122.5" y="935.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">15</text>
+      <g id="Badge-Actif">
+        <rect id="fond-15" x="1249.2530120481927" y="918.0" width="47.578125" height="24" fill="#DCFCE7" rx="12"/>
+        <text id="libelle-15" x="1259.3" y="934.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Actif</text>
+      </g>
+      <line x1="324" y1="958" x2="1376" y2="958" stroke="#E2E8F0" stroke-width="1"/>
+    </g>
+    <g id="Ligne-2">
+      <text id="cellule-6" x="324.0" y="991.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Pilates Core</text>
+      <text id="cellule-7" x="577.5" y="991.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Pilates</text>
+      <text id="cellule-8" x="742.3" y="991.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Ngozi O.</text>
+      <text id="cellule-9" x="932.4" y="991.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Mer · 12:15</text>
+      <text id="cellule-10" x="1122.5" y="991.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">10</text>
+      <g id="Badge-Actif-2">
+        <rect id="fond-16" x="1249.2530120481927" y="974.0" width="47.578125" height="24" fill="#DCFCE7" rx="12"/>
+        <text id="libelle-16" x="1259.3" y="990.0" font-family="Inter" font-size="12" font-weight="600" fill="#16A34A">Actif</text>
+      </g>
+      <line x1="324" y1="1014" x2="1376" y2="1014" stroke="#E2E8F0" stroke-width="1"/>
+    </g>
+    <g id="Ligne-3">
+      <text id="cellule-11" x="324.0" y="1047.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Yin Yoga</text>
+      <text id="cellule-12" x="577.5" y="1047.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Yoga</text>
+      <text id="cellule-13" x="742.3" y="1047.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Lucas J.</text>
+      <text id="cellule-14" x="932.4" y="1047.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">Ven · 19:45</text>
+      <text id="cellule-15" x="1122.5" y="1047.0" font-family="Inter" font-size="14" font-weight="500" fill="#0F172A">12</text>
+      <g id="Badge-Complet">
+        <rect id="fond-17" x="1249.2530120481927" y="1030.0" width="68.921875" height="24" fill="#FEE2E2" rx="12"/>
+        <text id="libelle-17" x="1259.3" y="1046.0" font-family="Inter" font-size="12" font-weight="600" fill="#DC2626">Complet</text>
+      </g>
+    </g>
+  </g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="834" height="1300" viewBox="0 0 834 1300">
+<g id="T02 - Recherche et filtres (Tablette)">
+<rect id="Fond" x="0" y="0" width="834" height="1300" fill="#FFFFFF"/>
+<g id="Header-tablette">
+  <rect id="fond-header" x="0" y="0" width="834" height="76" fill="#FFFFFF"/>
+  <line x1="0" y1="76" x2="834" y2="76" stroke="#CFCFCF" stroke-width="1"/>
+  <g id="Logo">
+    <rect id="logo-pastille" x="24" y="21" width="34" height="34" fill="#3A3A3A" rx="9"/>
+    <g id="icone-bolt-5" transform="translate(31,28) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte" x="68.0" y="45" font-family="Inter" font-size="22" font-weight="800" fill="#1F1F1F">FitBook</text>
+  </g>
+  <g id="Navigation">
+    <text id="lien-Rechercher" x="196.0" y="44" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">Rechercher</text>
+    <rect id="indicateur-actif" x="196" y="72" width="78.09375" height="4" fill="#3A3A3A" rx="2"/>
+    <text id="lien-Salles" x="299.1" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Salles</text>
+    <text id="lien-Coachs" x="365.0" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Coachs</text>
+    <text id="lien-Séances" x="441.8" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Séances</text>
+  </g>
+  <text id="Connexion" x="596.0" y="44" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">Connexion</text>
+  <g id="Bouton-S'inscrire">
+    <rect id="fond" x="690" y="20" width="120" height="38" fill="#3A3A3A" rx="10"/>
+    <text id="libelle" x="717.7" y="44.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">S'inscrire</text>
+  </g>
+</g>
+<g id="Bandeau-recherche">
+  <rect x="0" y="77" width="834" height="170" fill="#FFFFFF"/>
+  <line x1="0" y1="247" x2="834" y2="247" stroke="#CFCFCF" stroke-width="1"/>
+  <text id="Rechercher-une-séance,-une-s" x="24.0" y="126" font-family="Inter" font-size="24" font-weight="800" fill="#1F1F1F">Rechercher une séance, une salle ou un coach</text>
+  <g id="Barre-de-recherche">
+    <rect id="champ" x="24" y="150" width="386" height="52" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="icone-search-29" transform="translate(36,167.0) scale(0.750)">
+      <path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14z M20 20l-4-4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="placeholder" x="64.0" y="181.0" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">yoga</text>
+  </g>
+  <g id="Champ-ville">
+    <rect id="champ-2" x="422" y="150" width="230" height="52" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="icone-pin-36" transform="translate(434,167.0) scale(0.750)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="placeholder-2" x="462.0" y="181.0" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Toutes les villes</text>
+    <path d="M628 173.0 l5 5 l5 -5" fill="none" stroke="#8A8A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="Bouton-Rechercher">
+    <rect id="fond-2" x="664" y="150" width="146" height="52" fill="#3A3A3A" rx="10"/>
+    <text id="libelle-2" x="695.2" y="181.4" font-family="Inter" font-size="15" font-weight="600" fill="#FFFFFF">Rechercher</text>
+  </g>
+</g>
+<g id="Panneau-filtres">
+  <rect id="fond-3" x="24" y="272" width="250" height="690" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+  <g id="icone-filter-49" transform="translate(48,298) scale(0.833)">
+    <path d="M4 5h16l-6 8v6l-4-2v-4z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="titre" x="76.0" y="314" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Filtres</text>
+  <g id="Filtre-ville">
+    <text id="label" x="48.0" y="360" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Ville</text>
+    <rect id="champ-3" x="48" y="368" width="202" height="44" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="placeholder-3" x="62.0" y="395.0" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Bruxelles</text>
+    <path d="M226 387.0 l5 5 l5 -5" fill="none" stroke="#8A8A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="Filtre-activité">
+    <text id="Activité" x="48.0" y="448" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Activité</text>
+    <g id="Case-Yoga">
+      <rect id="case" x="48" y="464" width="20" height="20" fill="#3A3A3A" rx="5"/>
+      <path d="M53 474 l4 4 l7 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="libelle-3" x="78.0" y="479" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Yoga</text>
+    </g>
+    <g id="Case-CrossFit">
+      <rect id="case-2" x="48" y="496" width="20" height="20" fill="#FFFFFF" rx="5" stroke="#CFCFCF" stroke-width="1"/>
+      <text id="libelle-4" x="78.0" y="511" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">CrossFit</text>
+    </g>
+    <g id="Case-Boxe">
+      <rect id="case-3" x="48" y="528" width="20" height="20" fill="#3A3A3A" rx="5"/>
+      <path d="M53 538 l4 4 l7 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="libelle-5" x="78.0" y="543" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Boxe</text>
+    </g>
+    <g id="Case-Pilates">
+      <rect id="case-4" x="48" y="560" width="20" height="20" fill="#FFFFFF" rx="5" stroke="#CFCFCF" stroke-width="1"/>
+      <text id="libelle-6" x="78.0" y="575" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Pilates</text>
+    </g>
+    <g id="Case-Musculation">
+      <rect id="case-5" x="48" y="592" width="20" height="20" fill="#FFFFFF" rx="5" stroke="#CFCFCF" stroke-width="1"/>
+      <text id="libelle-7" x="78.0" y="607" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Musculation</text>
+    </g>
+  </g>
+  <g id="Filtre-niveau">
+    <text id="Niveau" x="48.0" y="644" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Niveau</text>
+    <g id="Chip-Tous">
+      <rect id="fond-4" x="48" y="656" width="48.234375" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-8" x="58.0" y="672.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Tous</text>
+    </g>
+    <g id="Chip-Débutant">
+      <rect id="fond-5" x="102.234375" y="656" width="73.359375" height="24" fill="#3A3A3A" rx="12.0"/>
+      <text id="libelle-9" x="112.2" y="672.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Débutant</text>
+    </g>
+    <g id="Chip-Inter.">
+      <rect id="fond-6" x="181.59375" y="656" width="49.734375" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-10" x="191.6" y="672.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Inter.</text>
+    </g>
+    <g id="Chip-Avancé">
+      <rect id="fond-7" x="237.328125" y="656" width="63.1875" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-11" x="247.3" y="672.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Avancé</text>
+    </g>
+  </g>
+  <g id="Filtre-prix">
+    <text id="Prix-maximum" x="48.0" y="722" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Prix maximum</text>
+    <text id="valeur" x="221.5" y="722" font-family="Inter" font-size="13" font-weight="700" fill="#1F1F1F">25 €</text>
+    <rect id="piste" x="48" y="738" width="202" height="6" fill="#CFCFCF" rx="3"/>
+    <rect id="piste-active" x="48" y="738" width="111.10000000000001" height="6" fill="#3A3A3A" rx="3"/>
+    <circle id="curseur" cx="159.10000000000002" cy="741" r="10" fill="#FFFFFF" stroke="#3A3A3A" stroke-width="1.5"/>
+  </g>
+  <g id="Filtre-date">
+    <text id="label-2" x="48.0" y="792" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Date</text>
+    <rect id="champ-4" x="48" y="800" width="202" height="44" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="icone-cal-113" transform="translate(60,813.0) scale(0.750)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="placeholder-4" x="88.0" y="827.0" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">jj/mm/aaaa</text>
+  </g>
+  <g id="Bouton-Appliquer-les-filtres">
+    <rect id="fond-8" x="48" y="872" width="202" height="44" fill="#3A3A3A" rx="10"/>
+    <text id="libelle-12" x="83.0" y="899.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Appliquer les filtres</text>
+  </g>
+  <text id="Lien-réinitialiser" x="112.5" y="942" font-family="Inter" font-size="13" font-weight="600" fill="#8A8A8A">Réinitialiser</text>
+</g>
+<g id="Résultats">
+  <g id="Chip-Séances-(9)">
+    <rect id="fond-9" x="290" y="272" width="103.375" height="32" fill="#3A3A3A" rx="16.0"/>
+    <text id="libelle-13" x="304.0" y="292.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Séances (9)</text>
+  </g>
+  <g id="Chip-Salles-(1)">
+    <rect id="fond-10" x="401.375" y="272" width="84.03125" height="32" fill="#EDEDED" rx="16.0"/>
+    <text id="libelle-14" x="415.4" y="292.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Salles (1)</text>
+  </g>
+  <g id="Chip-Coachs-(1)">
+    <rect id="fond-11" x="493.40625" y="272" width="94.234375" height="32" fill="#EDEDED" rx="16.0"/>
+    <text id="libelle-15" x="507.4" y="292.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Coachs (1)</text>
+  </g>
+  <text id="9-résultat(s)-pour-«-yoga-»" x="290.0" y="332" font-family="Inter" font-size="14" font-weight="500" fill="#8A8A8A">9 résultat(s) pour « yoga »</text>
+  <g id="Carte-séance-Vinyasa-Flow">
+    <rect id="fond-carte" x="290" y="352" width="252" height="330" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="photo">
+      <rect id="visuel" x="302" y="364" width="228" height="140" fill="#E4E4E4" rx="12"/>
+      <line x1="308.0" y1="370.0" x2="524.0" y2="498.0" stroke="#C4C4C4" stroke-width="1"/>
+      <line x1="524.0" y1="370.0" x2="308.0" y2="498.0" stroke="#C4C4C4" stroke-width="1"/>
+    </g>
+    <g id="tag-activite">
+      <rect id="fond-12" x="314" y="376" width="49.078125" height="24" fill="#3A3A3A" rx="12.0"/>
+      <text id="libelle-16" x="324.0" y="392.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Yoga</text>
+    </g>
+    <g id="Bouton-favori">
+      <circle cx="502" cy="392" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-151" transform="translate(493,383) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre-2" x="310.0" y="534" font-family="Inter" font-size="17" font-weight="700" fill="#1F1F1F">Vinyasa Flow</text>
+    <g id="icone-pin-156" transform="translate(310,548) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu" x="332.0" y="561" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Zen Studio · Ixelles</text>
+    <g id="icone-cal-160" transform="translate(310,572) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date" x="332.0" y="585" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">mer. 7 oct. · 18:30</text>
+    <g id="places">
+      <rect id="fond-13" x="310" y="600" width="126.46875" height="24" fill="#EDEDED" rx="12"/>
+      <text id="libelle-17" x="320.0" y="616" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">8 places restantes</text>
+    </g>
+    <line x1="310" y1="636" x2="522" y2="636" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="prix" x="310.0" y="664" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">15 €</text>
+    <g id="Bouton-Réserver">
+      <rect id="fond-14" x="412" y="644" width="110" height="34" fill="#3A3A3A" rx="10"/>
+      <text id="libelle-18" x="436.6" y="666.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+  <g id="Carte-séance-Réveil-yoga">
+    <rect id="fond-carte-2" x="558" y="352" width="252" height="330" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="photo-2">
+      <rect id="visuel-2" x="570" y="364" width="228" height="140" fill="#E4E4E4" rx="12"/>
+      <line x1="576.0" y1="370.0" x2="792.0" y2="498.0" stroke="#C4C4C4" stroke-width="1"/>
+      <line x1="792.0" y1="370.0" x2="576.0" y2="498.0" stroke="#C4C4C4" stroke-width="1"/>
+    </g>
+    <g id="tag-activite-2">
+      <rect id="fond-15" x="582" y="376" width="49.078125" height="24" fill="#3A3A3A" rx="12.0"/>
+      <text id="libelle-19" x="592.0" y="392.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Yoga</text>
+    </g>
+    <g id="Bouton-favori-2">
+      <circle cx="770" cy="392" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-188" transform="translate(761,383) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre-3" x="578.0" y="534" font-family="Inter" font-size="17" font-weight="700" fill="#1F1F1F">Réveil yoga</text>
+    <g id="icone-pin-193" transform="translate(578,548) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu-2" x="600.0" y="561" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Zen Studio · Ixelles</text>
+    <g id="icone-cal-197" transform="translate(578,572) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date-2" x="600.0" y="585" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">ven. 9 oct. · 07:30</text>
+    <g id="places-2">
+      <rect id="fond-16" x="578" y="600" width="131.40625" height="24" fill="#EDEDED" rx="12"/>
+      <text id="libelle-20" x="588.0" y="616" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">15 places restantes</text>
+    </g>
+    <line x1="578" y1="636" x2="790" y2="636" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="prix-2" x="578.0" y="664" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">12 €</text>
+    <g id="Bouton-Réserver-2">
+      <rect id="fond-17" x="680" y="644" width="110" height="34" fill="#3A3A3A" rx="10"/>
+      <text id="libelle-21" x="704.6" y="666.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+  <g id="Carte-séance-Vinyasa-Flow-2">
+    <rect id="fond-carte-3" x="290" y="698" width="252" height="330" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="photo-3">
+      <rect id="visuel-3" x="302" y="710" width="228" height="140" fill="#E4E4E4" rx="12"/>
+      <line x1="308.0" y1="716.0" x2="524.0" y2="844.0" stroke="#C4C4C4" stroke-width="1"/>
+      <line x1="524.0" y1="716.0" x2="308.0" y2="844.0" stroke="#C4C4C4" stroke-width="1"/>
+    </g>
+    <g id="tag-activite-3">
+      <rect id="fond-18" x="314" y="722" width="49.078125" height="24" fill="#3A3A3A" rx="12.0"/>
+      <text id="libelle-22" x="324.0" y="738.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Yoga</text>
+    </g>
+    <g id="Bouton-favori-3">
+      <circle cx="502" cy="738" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-225" transform="translate(493,729) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre-4" x="310.0" y="880" font-family="Inter" font-size="17" font-weight="700" fill="#1F1F1F">Vinyasa Flow</text>
+    <g id="icone-pin-230" transform="translate(310,894) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu-3" x="332.0" y="907" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Zen Studio · Ixelles</text>
+    <g id="icone-cal-234" transform="translate(310,918) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date-3" x="332.0" y="931" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">sam. 10 oct. · 18:30</text>
+    <g id="places-3">
+      <rect id="fond-19" x="310" y="946" width="126.421875" height="24" fill="#EDEDED" rx="12"/>
+      <text id="libelle-23" x="320.0" y="962" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">3 places restantes</text>
+    </g>
+    <line x1="310" y1="982" x2="522" y2="982" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="prix-3" x="310.0" y="1010" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">15 €</text>
+    <g id="Bouton-Réserver-3">
+      <rect id="fond-20" x="412" y="990" width="110" height="34" fill="#3A3A3A" rx="10"/>
+      <text id="libelle-24" x="436.6" y="1012.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+  <g id="Carte-séance-Réveil-yoga-2">
+    <rect id="fond-carte-4" x="558" y="698" width="252" height="330" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="photo-4">
+      <rect id="visuel-4" x="570" y="710" width="228" height="140" fill="#E4E4E4" rx="12"/>
+      <line x1="576.0" y1="716.0" x2="792.0" y2="844.0" stroke="#C4C4C4" stroke-width="1"/>
+      <line x1="792.0" y1="716.0" x2="576.0" y2="844.0" stroke="#C4C4C4" stroke-width="1"/>
+    </g>
+    <g id="tag-activite-4">
+      <rect id="fond-21" x="582" y="722" width="49.078125" height="24" fill="#3A3A3A" rx="12.0"/>
+      <text id="libelle-25" x="592.0" y="738.32" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF">Yoga</text>
+    </g>
+    <g id="Bouton-favori-4">
+      <circle cx="770" cy="738" r="16" fill="#FFFFFF"/>
+      <g id="icone-heart-262" transform="translate(761,729) scale(0.750)">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="titre-5" x="578.0" y="880" font-family="Inter" font-size="17" font-weight="700" fill="#1F1F1F">Réveil yoga</text>
+    <g id="icone-pin-267" transform="translate(578,894) scale(0.667)">
+      <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="lieu-4" x="600.0" y="907" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Zen Studio · Ixelles</text>
+    <g id="icone-cal-271" transform="translate(578,918) scale(0.667)">
+      <path d="M5 6h14v14H5z M5 10h14 M9 3v4 M15 3v4" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="date-4" x="600.0" y="931" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">lun. 12 oct. · 07:30</text>
+    <g id="places-4">
+      <rect id="fond-22" x="578" y="946" width="126.265625" height="24" fill="#EDEDED" rx="12"/>
+      <text id="libelle-26" x="588.0" y="962" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">2 places restantes</text>
+    </g>
+    <line x1="578" y1="982" x2="790" y2="982" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="prix-4" x="578.0" y="1010" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">12 €</text>
+    <g id="Bouton-Réserver-4">
+      <rect id="fond-23" x="680" y="990" width="110" height="34" fill="#3A3A3A" rx="10"/>
+      <text id="libelle-27" x="704.6" y="1012.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Réserver</text>
+    </g>
+  </g>
+</g>
+<g id="Footer">
+  <rect id="fond-footer" x="0" y="1120" width="834" height="180" fill="#D9D9D9"/>
+  <g id="Logo-2">
+    <rect id="logo-pastille-2" x="24" y="1160" width="34" height="34" fill="#3A3A3A" rx="9"/>
+    <g id="icone-bolt-291" transform="translate(31,1167) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte-2" x="68.0" y="1184" font-family="Inter" font-size="22" font-weight="800" fill="#1F1F1F">FitBook</text>
+  </g>
+  <text id="Plateforme" x="330.0" y="1180" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Plateforme</text>
+  <text id="Rechercher" x="330.0" y="1208" font-family="Inter" font-size="13" font-weight="400" fill="#1F1F1F">Rechercher</text>
+  <text id="Professionnels" x="500.0" y="1180" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Professionnels</text>
+  <text id="Devenir-coach" x="500.0" y="1208" font-family="Inter" font-size="13" font-weight="400" fill="#1F1F1F">Devenir coach</text>
+  <text id="Aide" x="670.0" y="1180" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Aide</text>
+  <text id="Contact" x="670.0" y="1208" font-family="Inter" font-size="13" font-weight="400" fill="#1F1F1F">Contact</text>
+  <text id="©-2026-FitBook-—-Projet-UAA-" x="24.0" y="1272" font-family="Inter" font-size="12" font-weight="400" fill="#1F1F1F">© 2026 FitBook — Projet UAA MI08</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "titre": "Vinyasa Flow",
+  "activiteId": 1,
+  "salleId": 1,
+  "dateDebut": "2026-10-19T18:30",
+  "dateFin": "2026-10-19T19:30",
+  "capaciteMax": 15,
+  "prix": 15,
+  "niveau": "TOUS"
+}

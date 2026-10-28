@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://fitbook.be/schemas/seance.schema.json",
+  "title": "Formulaire de séance FitBook",
+  "description": "Création / modification d'une séance par un coach ou un gestionnaire de salle.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["titre", "activiteId", "salleId", "dateDebut", "dateFin", "capaciteMax", "prix", "niveau"],
+  "properties": {
+    "titre": { "type": "string", "minLength": 3, "maxLength": 120 },
+    "activiteId": { "type": "integer", "minimum": 1 },
+    "salleId": { "type": "integer", "minimum": 1 },
+    "coachId": { "type": "integer", "minimum": 1 },
+    "dateDebut": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?$" },
+    "dateFin": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?$" },
+    "capaciteMax": { "type": "integer", "minimum": 1, "maximum": 500 },
+    "prix": { "type": "number", "minimum": 0, "maximum": 1000 },
+    "niveau": { "type": "string", "enum": ["TOUS", "DEBUTANT", "INTERMEDIAIRE", "AVANCE"] }
+  }
+}

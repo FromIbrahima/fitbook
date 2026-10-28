@@ -1,0 +1,22 @@
+parameters:
+    app.frontend_url: '%env(FRONTEND_URL)%'
+    app.mailer_from: '%env(MAILER_FROM)%'
+    app.json_schema_dir: '%kernel.project_dir%/config/json_schema'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $frontendUrl: '%app.frontend_url%'
+            string $mailerFrom: '%app.mailer_from%'
+            string $schemaDir: '%app.json_schema_dir%'
+            string $appSecret: '%kernel.secret%'
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Enum/'
+            - '../src/Kernel.php'

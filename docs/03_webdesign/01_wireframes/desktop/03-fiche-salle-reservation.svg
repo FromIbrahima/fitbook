@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2010" viewBox="0 0 1440 2010">
+<g id="03 - Fiche salle et réservation (Desktop)">
+<rect id="Fond" x="0" y="0" width="1440" height="2010" fill="#FFFFFF"/>
+<g id="Header">
+  <rect id="fond-header" x="0" y="0" width="1440" height="76" fill="#FFFFFF"/>
+  <line x1="0" y1="76" x2="1440" y2="76" stroke="#CFCFCF" stroke-width="1"/>
+  <g id="Logo">
+    <rect id="logo-pastille" x="120" y="21" width="34" height="34" fill="#3A3A3A" rx="9"/>
+    <g id="icone-bolt-5" transform="translate(127,28) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte" x="164.0" y="45" font-family="Inter" font-size="22" font-weight="800" fill="#1F1F1F">FitBook</text>
+  </g>
+  <g id="Navigation">
+    <text id="lien-Rechercher" x="420.0" y="44" font-family="Inter" font-size="15" font-weight="500" fill="#1F1F1F">Rechercher</text>
+    <text id="lien-Salles" x="542.6" y="44" font-family="Inter" font-size="15" font-weight="600" fill="#1F1F1F">Salles</text>
+    <rect id="indicateur-actif" x="542.640625" y="72" width="43.3125" height="4" fill="#3A3A3A" rx="2"/>
+    <text id="lien-Coachs" x="625.3" y="44" font-family="Inter" font-size="15" font-weight="500" fill="#1F1F1F">Coachs</text>
+    <text id="lien-Séances" x="719.8" y="44" font-family="Inter" font-size="15" font-weight="500" fill="#1F1F1F">Séances</text>
+  </g>
+  <g id="Utilisateur-connecté">
+    <g id="icone-heart-18" transform="translate(1110,29) scale(0.833)">
+      <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="Favoris" x="1140.0" y="44" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Favoris</text>
+    <g id="Avatar-AB">
+      <circle cx="1250" cy="38" r="18" fill="#D9D9D9"/>
+      <text id="initiales" x="1250" text-anchor="middle" y="43.76" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">AB</text>
+    </g>
+    <text id="nom-utilisateur" x="1276.0" y="34" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">Aïssatou Bah</text>
+    <text id="role-utilisateur" x="1276.0" y="52" font-family="Inter" font-size="12" font-weight="400" fill="#8A8A8A">Sportive</text>
+  </g>
+</g>
+<g id="Photo-couverture">
+  <rect id="visuel" x="120" y="100" width="1200" height="320" fill="#E4E4E4" rx="24"/>
+  <line x1="132.0" y1="112.0" x2="1308.0" y2="408.0" stroke="#C4C4C4" stroke-width="1"/>
+  <line x1="1308.0" y1="112.0" x2="132.0" y2="408.0" stroke="#C4C4C4" stroke-width="1"/>
+  <text id="legende" x="668.9" y="265.0" font-family="Inter" font-size="13" font-weight="600" fill="#8A8A8A">Photo de la salle</text>
+</g>
+<g id="En-tête-salle">
+  <g id="Chip-Yoga-·-Pilates-·-Méditation">
+    <rect id="fond" x="120" y="444" width="169.578125" height="24" fill="#EDEDED" rx="12.0"/>
+    <text id="libelle" x="130.0" y="460.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Yoga · Pilates · Méditation</text>
+  </g>
+  <text id="nom-salle" x="120.0" y="506" font-family="Inter" font-size="40" font-weight="800" fill="#1F1F1F">Zen Studio</text>
+  <g id="icone-pin-42" transform="translate(120,524) scale(0.750)">
+    <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5z" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="adresse" x="144.0" y="538" font-family="Inter" font-size="15" font-weight="400" fill="#8A8A8A">Rue du Bailli 42, 1050 Ixelles</text>
+  <g id="Note-étoiles">
+    <g id="icone-star-47" transform="translate(420,524) scale(0.667)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-50" transform="translate(438,524) scale(0.667)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-53" transform="translate(456,524) scale(0.667)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-56" transform="translate(474,524) scale(0.667)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+    <g id="icone-star-59" transform="translate(492,524) scale(0.667)">
+      <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+    </g>
+  </g>
+  <text id="note" x="516.0" y="538" font-family="Inter" font-size="15" font-weight="600" fill="#1F1F1F">4,9 · 128 avis</text>
+  <g id="Bouton-Favori">
+    <rect id="fond-2" x="1060" y="480" width="120" height="46" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+    <g id="icone-heart-66" transform="translate(1087.1796875,494.0) scale(0.750)">
+      <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="libelle-2" x="1111.2" y="508.04" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">Favori</text>
+  </g>
+  <g id="Bouton-Contacter">
+    <rect id="fond-3" x="1192" y="480" width="128" height="46" fill="#1F1F1F" rx="10"/>
+    <text id="libelle-3" x="1222.4" y="508.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Contacter</text>
+  </g>
+</g>
+<g id="Colonne-principale">
+  <g id="Bloc-à-propos">
+    <rect id="fond-4" x="120" y="576" width="780" height="240" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="À-propos" x="144.0" y="618" font-family="Inter" font-size="20" font-weight="800" fill="#1F1F1F">À propos</text>
+    <text id="description-1" x="144.0" y="654" font-family="Inter" font-size="15" font-weight="400" fill="#8A8A8A">Un studio lumineux de 400 m² dédié au yoga, au pilates et à la méditation.</text>
+    <text id="description-2" x="144.0" y="680" font-family="Inter" font-size="15" font-weight="400" fill="#8A8A8A">Cours pour tous les niveaux, encadrés par des coachs certifiés.</text>
+    <text id="description-3" x="144.0" y="706" font-family="Inter" font-size="15" font-weight="400" fill="#8A8A8A">Matériel fourni, vestiaires et douches sur place.</text>
+    <text id="Équipements" x="144.0" y="754" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Équipements</text>
+    <g id="Chip-Vestiaires">
+      <rect id="fond-5" x="144" y="770" width="77.328125" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-4" x="154.0" y="786.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Vestiaires</text>
+    </g>
+    <g id="Chip-Douches">
+      <rect id="fond-6" x="229.328125" y="770" width="71.34375" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-5" x="239.3" y="786.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Douches</text>
+    </g>
+    <g id="Chip-Tapis-fournis">
+      <rect id="fond-7" x="308.671875" y="770" width="95.203125" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-6" x="318.7" y="786.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Tapis fournis</text>
+    </g>
+    <g id="Chip-Wi-Fi">
+      <rect id="fond-8" x="411.875" y="770" width="51.15625" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-7" x="421.9" y="786.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Wi-Fi</text>
+    </g>
+    <g id="Chip-Parking-vélo">
+      <rect id="fond-9" x="471.03125" y="770" width="91.6875" height="24" fill="#EDEDED" rx="12.0"/>
+      <text id="libelle-8" x="481.0" y="786.32" font-family="Inter" font-size="12" font-weight="600" fill="#1F1F1F">Parking vélo</text>
+    </g>
+  </g>
+  <g id="Bloc-séances">
+    <rect id="fond-10" x="120" y="840" width="780" height="520" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="Prochaines-séances" x="144.0" y="884" font-family="Inter" font-size="20" font-weight="800" fill="#1F1F1F">Prochaines séances</text>
+    <g id="Chip-Lun-12">
+      <rect id="fond-11" x="144" y="904" width="68.125" height="32" fill="#EDEDED" rx="16.0"/>
+      <text id="libelle-9" x="158.0" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Lun 12</text>
+    </g>
+    <g id="Chip-Mar-13">
+      <rect id="fond-12" x="220.125" y="904" width="69.65625" height="32" fill="#EDEDED" rx="16.0"/>
+      <text id="libelle-10" x="234.1" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Mar 13</text>
+    </g>
+    <g id="Chip-Mer-14">
+      <rect id="fond-13" x="297.78125" y="904" width="70.265625" height="32" fill="#3A3A3A" rx="16.0"/>
+      <text id="libelle-11" x="311.8" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Mer 14</text>
+    </g>
+    <g id="Chip-Jeu-15">
+      <rect id="fond-14" x="376.046875" y="904" width="68.125" height="32" fill="#EDEDED" rx="16.0"/>
+      <text id="libelle-12" x="390.0" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Jeu 15</text>
+    </g>
+    <g id="Chip-Ven-16">
+      <rect id="fond-15" x="452.171875" y="904" width="69.4375" height="32" fill="#EDEDED" rx="16.0"/>
+      <text id="libelle-13" x="466.2" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Ven 16</text>
+    </g>
+    <g id="Chip-Sam-17">
+      <rect id="fond-16" x="529.609375" y="904" width="71.890625" height="32" fill="#EDEDED" rx="16.0"/>
+      <text id="libelle-14" x="543.6" y="924.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Sam 17</text>
+    </g>
+    <g id="Séance-Vinyasa-Flow">
+      <rect id="fond-17" x="144" y="960" width="732" height="66" fill="#FFFFFF" rx="12"/>
+      <g id="icone-clock-134" transform="translate(160,984) scale(0.750)">
+        <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="horaire" x="186.0" y="998" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">18:30 – 19:30</text>
+      <text id="titre" x="320.0" y="990" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Vinyasa Flow</text>
+      <text id="coach" x="320.0" y="1010" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">avec Yasmina B.</text>
+      <g id="places">
+        <rect id="fond-18" x="560" y="981" width="99.234375" height="24" fill="#EDEDED" rx="12"/>
+        <text id="libelle-15" x="570.0" y="997" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">Places : 6 / 15</text>
+      </g>
+      <text id="prix" x="720.0" y="998" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">15 €</text>
+      <g id="Bouton-Réserver">
+        <rect id="fond-19" x="776" y="975" width="88" height="36" fill="#3A3A3A" rx="10"/>
+        <text id="libelle-16" x="791.8" y="997.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+      </g>
+    </g>
+    <g id="Séance-Yin-Yoga">
+      <rect id="fond-20" x="144" y="1038" width="732" height="66" fill="#FFFFFF" rx="12"/>
+      <g id="icone-clock-152" transform="translate(160,1062) scale(0.750)">
+        <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="horaire-2" x="186.0" y="1076" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">19:45 – 20:45</text>
+      <text id="titre-2" x="320.0" y="1068" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Yin Yoga</text>
+      <text id="coach-2" x="320.0" y="1088" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">avec Lucas J.</text>
+      <g id="places-2">
+        <rect id="fond-21" x="560" y="1059" width="68.921875" height="24" fill="#EDEDED" rx="12"/>
+        <text id="libelle-17" x="570.0" y="1075" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">Complet</text>
+      </g>
+      <text id="prix-2" x="720.0" y="1076" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">13 €</text>
+      <g id="Bouton-Complet">
+        <rect id="fond-22" x="776" y="1053" width="88" height="36" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+        <text id="libelle-18" x="793.5" y="1075.68" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Complet</text>
+      </g>
+    </g>
+    <g id="Séance-Pilates-Core">
+      <rect id="fond-23" x="144" y="1116" width="732" height="66" fill="#FFFFFF" rx="12"/>
+      <g id="icone-clock-170" transform="translate(160,1140) scale(0.750)">
+        <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="horaire-3" x="186.0" y="1154" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">12:15 – 13:00</text>
+      <text id="titre-3" x="320.0" y="1146" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Pilates Core</text>
+      <text id="coach-3" x="320.0" y="1166" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">avec Ngozi O.</text>
+      <g id="places-3">
+        <rect id="fond-24" x="560" y="1137" width="99.9375" height="24" fill="#EDEDED" rx="12"/>
+        <text id="libelle-19" x="570.0" y="1153" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">Places : 4 / 10</text>
+      </g>
+      <text id="prix-3" x="720.0" y="1154" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">16 €</text>
+      <g id="Bouton-Réserver-2">
+        <rect id="fond-25" x="776" y="1131" width="88" height="36" fill="#3A3A3A" rx="10"/>
+        <text id="libelle-20" x="791.8" y="1153.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+      </g>
+    </g>
+    <g id="Séance-Réveil-yoga">
+      <rect id="fond-26" x="144" y="1194" width="732" height="66" fill="#FFFFFF" rx="12"/>
+      <g id="icone-clock-188" transform="translate(160,1218) scale(0.750)">
+        <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="horaire-4" x="186.0" y="1232" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:30 – 08:30</text>
+      <text id="titre-4" x="320.0" y="1224" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Réveil yoga</text>
+      <text id="coach-4" x="320.0" y="1244" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">avec Yasmina B.</text>
+      <g id="places-4">
+        <rect id="fond-27" x="560" y="1215" width="99.234375" height="24" fill="#EDEDED" rx="12"/>
+        <text id="libelle-21" x="570.0" y="1231" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">Places : 9 / 15</text>
+      </g>
+      <text id="prix-4" x="720.0" y="1232" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">12 €</text>
+      <g id="Bouton-Réserver-3">
+        <rect id="fond-28" x="776" y="1209" width="88" height="36" fill="#3A3A3A" rx="10"/>
+        <text id="libelle-22" x="791.8" y="1231.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+      </g>
+    </g>
+    <g id="Séance-Méditation">
+      <rect id="fond-29" x="144" y="1272" width="732" height="66" fill="#FFFFFF" rx="12"/>
+      <g id="icone-clock-206" transform="translate(160,1296) scale(0.750)">
+        <path d="M12 4a8 8 0 1 0 0 16a8 8 0 1 0 0-16z M12 8v4l3 2" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="horaire-5" x="186.0" y="1310" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">20:00 – 21:00</text>
+      <text id="titre-5" x="320.0" y="1302" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Méditation</text>
+      <text id="coach-5" x="320.0" y="1322" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">avec Fatoumata D.</text>
+      <g id="places-5">
+        <rect id="fond-30" x="560" y="1293" width="104.5" height="24" fill="#EDEDED" rx="12"/>
+        <text id="libelle-23" x="570.0" y="1309" font-family="Inter" font-size="12" font-weight="600" fill="#5A5A5A">Places : 11 / 20</text>
+      </g>
+      <text id="prix-5" x="720.0" y="1310" font-family="Inter" font-size="16" font-weight="800" fill="#1F1F1F">10 €</text>
+      <g id="Bouton-Réserver-4">
+        <rect id="fond-31" x="776" y="1287" width="88" height="36" fill="#3A3A3A" rx="10"/>
+        <text id="libelle-24" x="791.8" y="1309.68" font-family="Inter" font-size="13" font-weight="600" fill="#FFFFFF">Réserver</text>
+      </g>
+    </g>
+  </g>
+  <g id="Bloc-avis">
+    <rect id="fond-32" x="120" y="1384" width="780" height="400" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="Avis-des-sportifs" x="144.0" y="1428" font-family="Inter" font-size="20" font-weight="800" fill="#1F1F1F">Avis des sportifs</text>
+    <g id="Formulaire-avis">
+      <text id="Votre-note" x="144.0" y="1466" font-family="Inter" font-size="13" font-weight="600" fill="#1F1F1F">Votre note</text>
+      <g id="Note-étoiles-2">
+        <g id="icone-star-229" transform="translate(230,1453) scale(0.750)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-232" transform="translate(250,1453) scale(0.750)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-235" transform="translate(270,1453) scale(0.750)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-238" transform="translate(290,1453) scale(0.750)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-241" transform="translate(310,1453) scale(0.750)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#CFCFCF"/>
+        </g>
+      </g>
+      <rect id="zone-commentaire" x="144" y="1480" width="600" height="72" fill="#FFFFFF" rx="10" stroke="#CFCFCF" stroke-width="1"/>
+      <text id="placeholder" x="160.0" y="1508" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">Partagez votre expérience (10 caractères minimum)…</text>
+      <g id="Bouton-Publier">
+        <rect id="fond-33" x="756" y="1480" width="120" height="44" fill="#3A3A3A" rx="10"/>
+        <text id="libelle-25" x="792.2" y="1507.04" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Publier</text>
+      </g>
+    </g>
+    <g id="Avis-Cheikh-F.">
+      <g id="Avatar-CF">
+        <circle cx="164" cy="1598" r="18" fill="#D9D9D9"/>
+        <text id="initiales-2" x="164" text-anchor="middle" y="1603.76" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">CF</text>
+      </g>
+      <text id="auteur" x="194.0" y="1594" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Cheikh F.</text>
+      <text id="date" x="276.6" y="1594" font-family="Inter" font-size="12" font-weight="400" fill="#8A8A8A">il y a 2 jours</text>
+      <g id="Note-étoiles-3">
+        <g id="icone-star-260" transform="translate(194,1602) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-263" transform="translate(208,1602) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-266" transform="translate(222,1602) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-269" transform="translate(236,1602) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-272" transform="translate(250,1602) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+      </g>
+      <text id="commentaire" x="280.0" y="1614" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Super ambiance, la coach Yasmina est top. Je recommande !</text>
+    </g>
+    <g id="Avis-Élise-P.">
+      <g id="Avatar-EP">
+        <circle cx="164" cy="1664" r="18" fill="#D9D9D9"/>
+        <text id="initiales-3" x="164" text-anchor="middle" y="1669.76" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">EP</text>
+      </g>
+      <text id="auteur-2" x="194.0" y="1660" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Élise P.</text>
+      <text id="date-2" x="260.8" y="1660" font-family="Inter" font-size="12" font-weight="400" fill="#8A8A8A">il y a 1 semaine</text>
+      <g id="Note-étoiles-4">
+        <g id="icone-star-286" transform="translate(194,1668) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-289" transform="translate(208,1668) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-292" transform="translate(222,1668) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-295" transform="translate(236,1668) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-298" transform="translate(250,1668) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+      </g>
+      <text id="commentaire-2" x="280.0" y="1680" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Studio très propre et calme. Réservation simple et rapide.</text>
+    </g>
+    <g id="Avis-Kofi-M.">
+      <g id="Avatar-KM">
+        <circle cx="164" cy="1730" r="18" fill="#D9D9D9"/>
+        <text id="initiales-4" x="164" text-anchor="middle" y="1735.76" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">KM</text>
+      </g>
+      <text id="auteur-3" x="194.0" y="1726" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Kofi M.</text>
+      <text id="date-3" x="262.7" y="1726" font-family="Inter" font-size="12" font-weight="400" fill="#8A8A8A">il y a 3 semaines</text>
+      <g id="Note-étoiles-5">
+        <g id="icone-star-312" transform="translate(194,1734) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-315" transform="translate(208,1734) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-318" transform="translate(222,1734) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-321" transform="translate(236,1734) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+        </g>
+        <g id="icone-star-324" transform="translate(250,1734) scale(0.500)">
+          <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#CFCFCF"/>
+        </g>
+      </g>
+      <text id="commentaire-3" x="280.0" y="1746" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Bons cours mais vestiaires un peu petits aux heures de pointe.</text>
+    </g>
+  </g>
+</g>
+<g id="Colonne-latérale">
+  <g id="Carte-localisation">
+    <rect id="fond-34" x="924" y="576" width="396" height="300" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="Localisation" x="948.0" y="618" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Localisation</text>
+    <g id="Carte-interactive">
+      <rect id="visuel-2" x="948" y="636" width="348" height="170" fill="#E4E4E4" rx="12"/>
+      <line x1="954.0" y1="642.0" x2="1290.0" y2="800.0" stroke="#C4C4C4" stroke-width="1"/>
+      <line x1="1290.0" y1="642.0" x2="954.0" y2="800.0" stroke="#C4C4C4" stroke-width="1"/>
+      <text id="legende-2" x="1078.6" y="726.0" font-family="Inter" font-size="13" font-weight="600" fill="#8A8A8A">Carte (bonus)</text>
+    </g>
+    <text id="statut-ouverture" x="948.0" y="834" font-family="Inter" font-size="14" font-weight="600" fill="#5A5A5A">Ouvert aujourd'hui · 07:00 – 22:00</text>
+    <text id="telephone" x="948.0" y="856" font-family="Inter" font-size="14" font-weight="400" fill="#8A8A8A">02 345 67 89</text>
+  </g>
+  <g id="Horaires">
+    <rect id="fond-35" x="924" y="900" width="396" height="316" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="Horaires-d'ouverture" x="948.0" y="942" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Horaires d'ouverture</text>
+    <text id="jour-Lundi" x="948.0" y="980" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Lundi</text>
+    <text id="horaire-Lundi" x="1202.1" y="980" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:00 – 22:00</text>
+    <text id="jour-Mardi" x="948.0" y="1012" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Mardi</text>
+    <text id="horaire-Mardi" x="1202.1" y="1012" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:00 – 22:00</text>
+    <text id="jour-Mercredi" x="948.0" y="1044" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Mercredi</text>
+    <text id="horaire-Mercredi" x="1202.1" y="1044" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:00 – 22:00</text>
+    <text id="jour-Jeudi" x="948.0" y="1076" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Jeudi</text>
+    <text id="horaire-Jeudi" x="1202.1" y="1076" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:00 – 22:00</text>
+    <text id="jour-Vendredi" x="948.0" y="1108" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Vendredi</text>
+    <text id="horaire-Vendredi" x="1204.9" y="1108" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">07:00 – 21:00</text>
+    <text id="jour-Samedi" x="948.0" y="1140" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Samedi</text>
+    <text id="horaire-Samedi" x="1203.0" y="1140" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">09:00 – 18:00</text>
+    <text id="jour-Dimanche" x="948.0" y="1172" font-family="Inter" font-size="14" font-weight="500" fill="#1F1F1F">Dimanche</text>
+    <text id="horaire-Dimanche" x="1203.0" y="1172" font-family="Inter" font-size="14" font-weight="600" fill="#1F1F1F">09:00 – 13:00</text>
+  </g>
+  <g id="Coachs-de-la-salle">
+    <rect id="fond-36" x="924" y="1240" width="396" height="300" fill="#FFFFFF" rx="16" stroke="#CFCFCF" stroke-width="1"/>
+    <text id="Coachs-de-la-salle-2" x="948.0" y="1282" font-family="Inter" font-size="18" font-weight="800" fill="#1F1F1F">Coachs de la salle</text>
+    <g id="Coach-Yasmina-Benali">
+      <g id="Avatar-YB">
+        <circle cx="972" cy="1336" r="24" fill="#D9D9D9"/>
+        <text id="initiales-5" x="972" text-anchor="middle" y="1343.68" font-family="Inter" font-size="19" font-weight="700" fill="#1F1F1F">YB</text>
+      </g>
+      <text id="Yasmina-Benali" x="1008.0" y="1332" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Yasmina Benali</text>
+      <text id="Yoga-·-Méditation" x="1008.0" y="1352" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Yoga · Méditation</text>
+      <g id="icone-star-373" transform="translate(1240,1324) scale(0.667)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <text id="4,9" x="1262.0" y="1337" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">4,9</text>
+    </g>
+    <g id="Coach-Ngozi-Okafor">
+      <g id="Avatar-NO">
+        <circle cx="972" cy="1408" r="24" fill="#D9D9D9"/>
+        <text id="initiales-6" x="972" text-anchor="middle" y="1415.68" font-family="Inter" font-size="19" font-weight="700" fill="#1F1F1F">NO</text>
+      </g>
+      <text id="Ngozi-Okafor" x="1008.0" y="1404" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Ngozi Okafor</text>
+      <text id="Pilates" x="1008.0" y="1424" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Pilates</text>
+      <g id="icone-star-385" transform="translate(1240,1396) scale(0.667)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <text id="4,8" x="1262.0" y="1409" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">4,8</text>
+    </g>
+    <g id="Coach-Lucas-Janssens">
+      <g id="Avatar-LJ">
+        <circle cx="972" cy="1480" r="24" fill="#D9D9D9"/>
+        <text id="initiales-7" x="972" text-anchor="middle" y="1487.68" font-family="Inter" font-size="19" font-weight="700" fill="#1F1F1F">LJ</text>
+      </g>
+      <text id="Lucas-Janssens" x="1008.0" y="1476" font-family="Inter" font-size="15" font-weight="700" fill="#1F1F1F">Lucas Janssens</text>
+      <text id="Yin-Yoga" x="1008.0" y="1496" font-family="Inter" font-size="13" font-weight="400" fill="#8A8A8A">Yin Yoga</text>
+      <g id="icone-star-397" transform="translate(1240,1468) scale(0.667)">
+        <path d="M12 3l2.7 5.6l6.1.9l-4.4 4.3l1 6.1L12 17l-5.4 2.9l1-6.1L3.2 9.5l6.1-.9z" fill="#9A9A9A"/>
+      </g>
+      <text id="4,7" x="1262.0" y="1481" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">4,7</text>
+    </g>
+  </g>
+</g>
+<g id="Footer">
+  <rect id="fond-footer" x="0" y="1810" width="1440" height="200" fill="#D9D9D9"/>
+  <g id="Logo-2">
+    <rect id="logo-pastille-2" x="120" y="1850" width="34" height="34" fill="#3A3A3A" rx="9"/>
+    <g id="icone-bolt-408" transform="translate(127,1857) scale(0.833)">
+      <path d="M13 3L5 14h6l-1 7l8-11h-6z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="logo-texte-2" x="164.0" y="1874" font-family="Inter" font-size="22" font-weight="800" fill="#1F1F1F">FitBook</text>
+  </g>
+  <text id="Plateforme" x="620.0" y="1866" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Plateforme</text>
+  <text id="Rechercher" x="620.0" y="1898" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Rechercher</text>
+  <text id="Salles" x="620.0" y="1924" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Salles</text>
+  <text id="Coachs" x="620.0" y="1950" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Coachs</text>
+  <text id="Séances" x="620.0" y="1976" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Séances</text>
+  <text id="Professionnels" x="850.0" y="1866" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Professionnels</text>
+  <text id="Devenir-coach" x="850.0" y="1898" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Devenir coach</text>
+  <text id="Inscrire-ma-salle" x="850.0" y="1924" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Inscrire ma salle</text>
+  <text id="Tarifs" x="850.0" y="1950" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Tarifs</text>
+  <text id="Aide" x="1080.0" y="1866" font-family="Inter" font-size="14" font-weight="700" fill="#1F1F1F">Aide</text>
+  <text id="FAQ" x="1080.0" y="1898" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">FAQ</text>
+  <text id="Contact" x="1080.0" y="1924" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Contact</text>
+  <text id="Conditions" x="1080.0" y="1950" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Conditions</text>
+  <text id="Confidentialité" x="1080.0" y="1976" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Confidentialité</text>
+  <text id="Réservez-votre-sport,-simple" x="120.0" y="1920" font-family="Inter" font-size="14" font-weight="400" fill="#1F1F1F">Réservez votre sport, simplement.</text>
+  <text id="©-2026-FitBook-—-Projet-UAA-" x="120.0" y="1980" font-family="Inter" font-size="12" font-weight="400" fill="#1F1F1F">© 2026 FitBook — Projet UAA MI08</text>
+</g>
+</g>
+</svg>
