@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ApiService } from '../../core/api.service';
-import { dateHeure, prix, teinte } from '../../core/format';
+import { dateHeure, fondPhoto, prix, teinte } from '../../core/format';
 import { Avis, JOURS, Reservation, Salle, Seance } from '../../core/models';
 import { ToastService } from '../../core/toast.service';
 import { EspaceLayoutComponent, ElementMenu } from '../../layout/espace-layout.component';
@@ -41,8 +41,6 @@ interface LigneHoraire { jourSemaine: number; heureDebut: string; heureFin: stri
                 <div class="champ"><label>Code postal</label><input class="input" formControlName="codePostal" /><app-erreur-champ [controle]="form.controls.codePostal" [serveur]="erreurs()['codePostal']" /></div>
                 <div class="champ"><label>Ville</label><input class="input" formControlName="ville" /><app-erreur-champ [controle]="form.controls.ville" [serveur]="erreurs()['ville']" /></div>
                 <div class="champ"><label>Téléphone</label><input class="input" formControlName="telephone" /><app-erreur-champ [controle]="form.controls.telephone" [serveur]="erreurs()['telephone']" /></div>
-                <div class="champ"><label>Latitude</label><input class="input" type="number" step="0.0001" formControlName="latitude" /><app-erreur-champ [serveur]="erreurs()['latitude']" /></div>
-                <div class="champ"><label>Longitude</label><input class="input" type="number" step="0.0001" formControlName="longitude" /><app-erreur-champ [serveur]="erreurs()['longitude']" /></div>
               </div>
               <div class="champ"><label>Description</label><textarea class="input" formControlName="description"></textarea></div>
               <div class="champ"><label>Équipements</label>
@@ -54,7 +52,7 @@ interface LigneHoraire { jourSemaine: number; heureDebut: string; heureFin: stri
             </form>
             @if (!creation()) {
               <aside>
-                <div class="panneau"><h3>Aperçu public</h3><div class="visuel" style="margin:0 0 10px" [style.background]="teinte(form.controls.nom.value)"><span class="vague"></span></div>
+                <div class="panneau"><h3>Aperçu public</h3><div class="visuel" style="margin:0 0 10px" [class.avec-photo]="!!salleCourante()?.photo" [style.background]="fondPhoto(salleCourante()?.photo, form.controls.nom.value)"><span class="vague"></span></div>
                   <p class="meta"><app-stars [note]="stats()?.noteMoyenne ?? 0" /> {{ stats()?.noteMoyenne ?? '–' }} ({{ stats()?.nbAvis ?? 0 }} avis)</p></div>
                 <div class="stat" style="margin-bottom:14px"><span class="stat-icone"><app-icon nom="user" /></span><span><small>Réservations ce mois</small><strong>{{ stats()?.reservationsCeMois ?? 0 }}</strong></span></div>
                 <div class="stat" style="margin-bottom:14px"><span class="stat-icone"><app-icon nom="chart" /></span><span><small>Taux de remplissage</small><strong>{{ stats()?.tauxRemplissage ?? 0 }} %</strong></span></div>
@@ -141,6 +139,7 @@ export class EspaceSalleComponent {
   protected readonly dateHeure = dateHeure;
   protected readonly prix = prix;
   protected readonly teinte = teinte;
+  protected readonly fondPhoto = fondPhoto;
   protected readonly jours = JOURS;
   protected readonly menu: ElementMenu[] = [
     { id: 'salle', libelle: 'Ma salle', icone: 'home' },
@@ -177,8 +176,6 @@ export class EspaceSalleComponent {
     ville: new FormControl('', { nonNullable: true, validators: [Validators.required] }),
     telephone: new FormControl('', { nonNullable: true, validators: [Validators.pattern(/^[0-9 +().-]{6,20}$/)] }),
     description: new FormControl('', { nonNullable: true }),
-    latitude: new FormControl<number | null>(null, [Validators.min(-90), Validators.max(90)]),
-    longitude: new FormControl<number | null>(null, [Validators.min(-180), Validators.max(180)]),
   });
 
   constructor() {
