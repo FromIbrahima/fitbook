@@ -27,9 +27,15 @@ class Activite
     #[Assert\Length(max: 50, minMessage: 'Au moins {{ limit }} caractères.', maxMessage: 'Au plus {{ limit }} caractères.')]
     private string $categorie = '';
 
+    /** Photo affichée sur les cartes des séances de cette activité : "images/activites/yoga.jpg" */
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $photo = null;
+
     public function getId(): ?int { return $this->id; }
     public function getNom(): string { return $this->nom; }
     public function setNom(string $n): static { $this->nom = trim($n); return $this; }
     public function getCategorie(): string { return $this->categorie; }
     public function setCategorie(string $c): static { $this->categorie = trim($c); return $this; }
+    public function getPhoto(): ?string { return $this->photo; }
+    public function setPhoto(?string $p): static { $this->photo = $p; return $this; }
 }
