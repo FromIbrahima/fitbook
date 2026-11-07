@@ -13,7 +13,7 @@ export interface Utilisateur {
   coachId: number | null;
 }
 
-export interface Activite { id: number; nom: string; categorie: string; total?: number; }
+export interface Activite { id: number; nom: string; categorie: string; photo?: string | null; total?: number; }
 
 export interface Disponibilite { id: number; jourSemaine: number; jour: string; heureDebut: string; heureFin: string; }
 
@@ -39,7 +39,9 @@ export interface Seance {
   prix: number;
   niveau: Niveau;
   statut: 'PLANIFIEE' | 'ANNULEE';
-  activite: { id: number; nom: string; categorie: string };
+  /** photo de la séance, ou à défaut celle de son activité */
+  photo?: string | null;
+  activite: { id: number; nom: string; categorie: string; photo?: string | null };
   salle: { id: number; nom: string; ville: string };
   coach: { id: number; nom: string };
 }
@@ -73,6 +75,7 @@ export interface Salle {
   equipements: string[];
   latitude: number | null;
   longitude: number | null;
+  photo: string | null;
   noteMoyenne: number | null;
   nbAvis: number;
   activites: string[];

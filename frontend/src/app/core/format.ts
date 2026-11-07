@@ -22,6 +22,15 @@ export function teinte(texte: string): string {
   for (const c of texte) h = (h * 31 + c.charCodeAt(0)) % 997;
   return couleurs[h % couleurs.length];
 }
+/**
+ * Fond d'une carte : la photo (frontend/public/images/...) avec, dessous, la couleur pastel du texte.
+ * Sans photo, ou si l'image n'est pas trouvée, la couleur seule s'affiche.
+ */
+export function fondPhoto(photo: string | null | undefined, texte: string): string {
+  if (!photo) return teinte(texte);
+  const url = /^(https?:)?\//.test(photo) ? photo : '/' + photo;
+  return `center 35% / cover no-repeat url('${url}'), ${teinte(texte)}`;
+}
 /** valeur pour <input type="datetime-local"> */
 export function versInputDate(d: Date): string {
   const p = (n: number) => String(n).padStart(2, '0');

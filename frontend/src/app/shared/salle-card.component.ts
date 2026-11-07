@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Salle } from '../core/models';
-import { teinte } from '../core/format';
+import { fondPhoto } from '../core/format';
 import { IconComponent } from './icon.component';
 import { StarsComponent } from './stars.component';
 
@@ -12,7 +12,7 @@ import { StarsComponent } from './stars.component';
   template: `
     @let s = salle();
     <article class="carte carte-salle anim-apparition" [style.animation-delay.ms]="delai()">
-      <div class="visuel" [style.background]="teinte(s.nom)">
+      <div class="visuel" [class.avec-photo]="!!s.photo" [style.background]="fondPhoto(s.photo, s.nom)">
         @if (favoriVisible()) {
           <button type="button" class="btn-coeur" [class.actif]="s.estFavori" (click)="favori.emit(s)"
             [attr.aria-label]="s.estFavori ? 'Retirer des favoris' : 'Ajouter aux favoris'"><app-icon nom="heart" [taille]="16" /></button>
@@ -32,5 +32,5 @@ export class SalleCardComponent {
   readonly delai = input(0);
   readonly favoriVisible = input(false);
   readonly favori = output<Salle>();
-  protected readonly teinte = teinte;
+  protected readonly fondPhoto = fondPhoto;
 }

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Seance } from '../core/models';
-import { dateHeure, prix, teinte } from '../core/format';
+import { dateHeure, fondPhoto, prix } from '../core/format';
 import { IconComponent } from './icon.component';
 
 /** Carte « séance » (accueil, recherche) — survol animé (translateY + scale). */
@@ -12,7 +12,7 @@ import { IconComponent } from './icon.component';
   template: `
     @let s = seance();
     <article class="carte carte-seance anim-apparition" [style.animation-delay.ms]="delai()">
-      <div class="visuel" [style.background]="teinte(s.activite.nom)">
+      <div class="visuel" [class.avec-photo]="!!(s.photo ?? s.activite.photo)" [style.background]="fondPhoto(s.photo ?? s.activite.photo, s.activite.nom)">
         <span class="chip chip-plein">{{ s.activite.nom }}</span>
         <span class="vague"></span>
       </div>
@@ -42,5 +42,5 @@ export class SeanceCardComponent {
   readonly reserver = output<Seance>();
   protected readonly dateHeure = dateHeure;
   protected readonly prix = prix;
-  protected readonly teinte = teinte;
+  protected readonly fondPhoto = fondPhoto;
 }
