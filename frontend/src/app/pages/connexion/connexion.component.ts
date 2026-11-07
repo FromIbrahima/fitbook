@@ -158,10 +158,12 @@ export class ConnexionComponent {
   });
 
   constructor() {
-    const p = this.route.snapshot.queryParamMap;
-    if (p.get('mode') === 'inscription') this.mode.set('inscription');
-    const r = p.get('role') as Role | null;
-    if (r && r !== 'ADMIN') this.inscription.controls.role.setValue(r);
+    // l'adresse peut changer sans quitter la page (liens du pied de page) : on écoute ses paramètres
+    this.route.queryParamMap.subscribe((p) => {
+      if (p.get('mode') === 'inscription') this.mode.set('inscription');
+      const r = p.get('role') as Role | null;
+      if (r && r !== 'ADMIN') this.inscription.controls.role.setValue(r);
+    });
     this.api.get<Accueil>('/accueil').subscribe({ next: (d) => this.stats.set(d.stats), error: () => this.stats.set(null) });
   }
 

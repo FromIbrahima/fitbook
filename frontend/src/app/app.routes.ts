@@ -13,5 +13,10 @@ export const routes: Routes = [
   { path: 'espace-coach', title: 'Espace coach — FitBook', canActivate: [roleGuard('COACH')], loadComponent: () => import('./pages/espace-coach/espace-coach.component').then((m) => m.EspaceCoachComponent) },
   { path: 'espace-salle', title: 'Espace salle — FitBook', canActivate: [roleGuard('GESTIONNAIRE')], loadComponent: () => import('./pages/espace-salle/espace-salle.component').then((m) => m.EspaceSalleComponent) },
   { path: 'administration', title: 'Administration — FitBook', canActivate: [roleGuard('ADMIN')], loadComponent: () => import('./pages/administration/administration.component').then((m) => m.AdministrationComponent) },
+  // pages d'aide (liens du pied de page) : un seul composant, la page à afficher vient de « data »
+  { path: 'faq', title: 'FAQ — FitBook', data: { page: 'faq' }, loadComponent: () => import('./pages/aide/aide.component').then((m) => m.AideComponent) },
+  { path: 'contact', title: 'Contact — FitBook', data: { page: 'contact' }, loadComponent: () => import('./pages/aide/aide.component').then((m) => m.AideComponent) },
+  { path: 'conditions', title: 'Conditions d\'utilisation — FitBook', data: { page: 'conditions' }, loadComponent: () => import('./pages/aide/aide.component').then((m) => m.AideComponent) },
+  { path: 'confidentialite', title: 'Confidentialité — FitBook', data: { page: 'confidentialite' }, loadComponent: () => import('./pages/aide/aide.component').then((m) => m.AideComponent) },
   { path: '**', title: 'Page introuvable — FitBook', loadComponent: () => import('./pages/introuvable.component').then((m) => m.IntrouvableComponent) },
 ];
