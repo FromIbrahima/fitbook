@@ -12,7 +12,7 @@ export interface EvenementCalendrier {
 
 const H_DEBUT = 7;
 const H_FIN = 22;
-const PX_HEURE = 46;
+const PX_HEURE = 60; // 1 heure = 60 px : une séance d'1 h a la place pour 3 lignes
 const NOMS = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'];
 
 /**
@@ -41,11 +41,12 @@ const NOMS = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'];
             <div class="cal-entete">{{ j.nom }} <b>{{ j.date.getDate() }}</b></div>
             <div class="cal-colonne">
               @for (e of j.evenements; track e.id) {
-                <button type="button" class="cal-evt etat-{{ e.etat ?? 'ok' }}" [style.top.px]="e.top" [style.height.px]="e.hauteur"
-                  (click)="selection.emit(e.source)" [title]="e.source.titre + ' — ' + e.horaire">
+                <button type="button" class="cal-evt etat-{{ e.etat ?? 'ok' }}" [class.cal-evt-court]="e.hauteur < 50" [class.cal-evt-etroit]="e.colonnes > 1"
+                  [style.top.px]="e.top" [style.height.px]="e.hauteur" [style.left]="e.gauche" [style.width]="e.largeur"
+                  (click)="selection.emit(e.source)" [title]="e.source.titre + ' — ' + e.horaire + (e.source.sousTitre ? ' — ' + e.source.sousTitre : '')">
                   <strong>{{ e.source.titre }}</strong>
                   <span>{{ e.horaire }}</span>
-                  @if (e.source.sousTitre) { <span>{{ e.source.sousTitre }}</span> }
+                  @if (e.source.sousTitre) { <span class="cal-evt-lieu">{{ e.source.sousTitre }}</span> }
                 </button>
               }
             </div>
@@ -95,12 +96,14 @@ export class CalendrierComponent {
           const debutH = Math.max(H_DEBUT, d.getHours() + d.getMinutes() / 60);
           const finH = Math.min(H_FIN, f.getHours() + f.getMinutes() / 60);
           return {
-            id: e.id, source: e, etat: e.etat,
+            id: e.id, source: e, etat: e.etat, debutH, finH,
             top: (debutH - H_DEBUT) * PX_HEURE,
-            hauteur: Math.max(22, (finH - debutH) * PX_HEURE - 2),
+            hauteur: Math.max(24, (finH - debutH) * PX_HEURE - 2),
             horaire: `${CalendrierComponent.hm(d)} – ${CalendrierComponent.hm(f)}`,
+            colonne: 0, colonnes: 1, gauche: '', largeur: '',
           };
         });
+      CalendrierComponent.cotesACote(liste);
       return { cle: date.toISOString(), nom, date, estAujourdhui: date.toDateString() === auj, evenements: liste };
     });
   });
@@ -137,6 +140,34 @@ export class CalendrierComponent {
   }
 
   protected aujourdhui(): void { this.lundi.set(CalendrierComponent.lundiDe(new Date())); }
+
+  /**
+   * Séances qui se chevauchent le même jour (ex. 07:00–08:00 et 07:30–08:30) :
+   * au lieu d'être posées l'une sur l'autre, elles se partagent la largeur de la colonne.
+   */
+  static cotesACote(liste: { debutH: number; finH: number; colonne: number; colonnes: number; gauche: string; largeur: string }[]): void {
+    let groupe: typeof liste = [];
+    let finGroupe = -1;
+    const fermer = () => {
+      const n = Math.max(1, ...groupe.map((e) => e.colonne + 1));
+      for (const e of groupe) {
+        e.colonnes = n;
+        e.largeur = `calc(${100 / n}% - 4px)`;
+        e.gauche = `calc(${(100 / n) * e.colonne}% + 2px)`;
+      }
+      groupe = [];
+    };
+    for (const e of liste) { // liste déjà triée par heure de début
+      if (groupe.length && e.debutH >= finGroupe) fermer();
+      const prises = groupe.filter((g) => g.finH > e.debutH).map((g) => g.colonne);
+      let c = 0;
+      while (prises.includes(c)) c++;
+      e.colonne = c;
+      groupe.push(e);
+      finGroupe = Math.max(finGroupe, e.finH);
+    }
+    if (groupe.length) fermer();
+  }
 
   static lundiDe(d: Date): Date {
     const l = new Date(d.getFullYear(), d.getMonth(), d.getDate());
