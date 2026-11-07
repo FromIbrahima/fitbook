@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
-import { dateCourte, heure, initiales, prix, teinte } from '../../core/format';
+import { dateCourte, fondPhoto, heure, initiales, prix, teinte } from '../../core/format';
 import { JOURS, Salle, Seance } from '../../core/models';
 import { ReservationAction } from '../../core/reservation-action.service';
 import { ToastService } from '../../core/toast.service';
@@ -20,7 +20,7 @@ import { AvisFormComponent } from '../../shared/avis-form.component';
   template: `
     @if (salle(); as s) {
       <div class="conteneur">
-        <div class="fiche-banniere anim-apparition" [style.background]="teinte(s.nom)"></div>
+        <div class="fiche-banniere anim-apparition" [class.avec-photo]="!!s.photo" [style.background]="fondPhoto(s.photo, s.nom)" role="img" [attr.aria-label]="'Photo de la salle ' + s.nom"></div>
         <div class="fiche-entete">
           <div>
             <span class="badge badge-doux">{{ s.activites.join(' · ') || 'Salle de sport' }}</span>
@@ -33,9 +33,20 @@ import { AvisFormComponent } from '../../shared/avis-form.component';
               <button type="button" class="btn btn-contour" [class.anim-pop]="s.estFavori" (click)="basculerFavori(s)">
                 <app-icon nom="heart" [taille]="16" [style.color]="s.estFavori ? 'var(--primaire)' : ''" /> {{ s.estFavori ? 'Dans mes favoris' : 'Favori' }}</button>
             }
-            @if (s.telephone) { <a class="btn btn-encre" [href]="'tel:' + s.telephone">Contacter</a> }
+            @if (s.telephone) {
+              <button type="button" class="btn btn-encre" (click)="contactOuvert.set(!contactOuvert())" [attr.aria-expanded]="contactOuvert()">Contacter</button>
+            }
           </div>
         </div>
+        @if (contactOuvert() && s.telephone) {
+          <div class="panneau anim-apparition contact-salle">
+            <div><small>Téléphone de {{ s.nom }}</small><strong>{{ s.telephone }}</strong><small>{{ s.adresse }}, {{ s.codePostal }} {{ s.ville }}</small></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <button type="button" class="btn btn-contour" (click)="copierTelephone(s.telephone)">Copier le numéro</button>
+              <a class="btn btn-primaire" [href]="lienTel(s.telephone)">Appeler</a>
+            </div>
+          </div>
+        }
 
         <div class="fiche-grille">
           <div>
@@ -119,8 +130,26 @@ export class SalleComponent {
   protected readonly resa = inject(ReservationAction);
   protected readonly salle = signal<Salle | null>(null);
   protected readonly jour = signal<string>('');
+  /** « Contacter » affiche le numéro (un lien tel: seul ouvre une fenêtre « choisir une application » sur ordinateur) */
+  protected readonly contactOuvert = signal(false);
+
+  protected lienTel(tel: string): string {
+    return 'tel:' + tel.replace(/[^0-9+]/g, '');
+  }
+
+  protected copierTelephone(tel: string): void {
+    if (!navigator.clipboard) {
+      this.toast.info('Numéro : ' + tel);
+      return;
+    }
+    navigator.clipboard.writeText(tel).then(
+      () => this.toast.succes('Numéro copié : ' + tel),
+      () => this.toast.info('Numéro : ' + tel),
+    );
+  }
   protected readonly jours = JOURS;
   protected readonly teinte = teinte;
+  protected readonly fondPhoto = fondPhoto;
   protected readonly initiales = initiales;
   protected readonly dateCourte = dateCourte;
   protected readonly heure = heure;

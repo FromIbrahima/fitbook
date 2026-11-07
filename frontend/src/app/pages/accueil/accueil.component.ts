@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
-import { dateHeure, initiales } from '../../core/format';
+import { dateHeure, fondPhoto, initiales } from '../../core/format';
 import { ApiService } from '../../core/api.service';
 import { Accueil, Seance } from '../../core/models';
 import { ReservationAction } from '../../core/reservation-action.service';
@@ -46,7 +46,7 @@ import { SeanceCardComponent } from '../../shared/seance-card.component';
         <div class="hero-scene" aria-hidden="true">
           @if (vedette(); as s) {
             <div class="verre scene-carte">
-              <div class="scene-image">
+              <div class="scene-image" [class.avec-photo]="!!(s.photo ?? s.activite.photo)" [style.background]="(s.photo ?? s.activite.photo) ? fondPhoto(s.photo ?? s.activite.photo, s.activite.nom) : null">
                 <svg viewBox="0 0 400 170" preserveAspectRatio="none">
                   <circle cx="330" cy="40" r="70" fill="rgba(255,255,255,.18)" />
                   <circle cx="60" cy="150" r="90" fill="rgba(255,255,255,.10)" />
@@ -84,7 +84,11 @@ import { SeanceCardComponent } from '../../shared/seance-card.component';
         <div class="grille-activites">
           @for (a of donnees()?.activites ?? []; track a.id; let i = $index) {
             <a class="carte carte-activite anim-apparition" [style.animation-delay.ms]="i * 60" [routerLink]="['/recherche']" [queryParams]="{ activites: a.id }">
-              <span class="stat-icone"><app-icon nom="bolt" /></span>
+              @if (a.photo) {
+                <span class="activite-photo" [style.background]="fondPhoto(a.photo, a.nom)" role="img" [attr.aria-label]="a.nom"></span>
+              } @else {
+                <span class="stat-icone"><app-icon nom="bolt" /></span>
+              }
               <strong>{{ a.nom }}</strong><small>{{ a.total }} séance{{ a.total! > 1 ? 's' : '' }}</small>
             </a>
           }
@@ -121,6 +125,7 @@ export class AccueilComponent {
   protected readonly donnees = signal<Accueil | null>(null);
   protected readonly villes = signal<string[]>([]);
   protected readonly dateHeure = dateHeure;
+  protected readonly fondPhoto = fondPhoto;
   protected readonly initiales = initiales;
   /** séance mise en avant dans la scène du hero : la première qui a encore des places */
   protected readonly vedette = computed(() => {

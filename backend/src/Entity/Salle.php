@@ -56,6 +56,11 @@ class Salle
     #[Assert\Range(min: -180, max: 180, notInRangeMessage: 'Valeur attendue entre {{ min }} et {{ max }}.')]
     private ?string $longitude = null;
 
+    /** Chemin de la photo, servi par le frontend : "images/salles/zen-studio.jpg" */
+    #[ORM\Column(length: 255, nullable: true)]
+    #[Assert\Length(max: 255, maxMessage: 'Au plus {{ limit }} caractères.')]
+    private ?string $photo = null;
+
     #[ORM\ManyToOne(inversedBy: 'salles')]
     #[ORM\JoinColumn(name: 'id_utilisateur', referencedColumnName: 'id_utilisateur', nullable: false)]
     private ?Utilisateur $gestionnaire = null;
@@ -113,6 +118,8 @@ class Salle
     public function setLatitude(?float $l): static { $this->latitude = $l !== null ? (string) $l : null; return $this; }
     public function getLongitude(): ?float { return $this->longitude !== null ? (float) $this->longitude : null; }
     public function setLongitude(?float $l): static { $this->longitude = $l !== null ? (string) $l : null; return $this; }
+    public function getPhoto(): ?string { return $this->photo; }
+    public function setPhoto(?string $p): static { $this->photo = $p; return $this; }
     public function getGestionnaire(): ?Utilisateur { return $this->gestionnaire; }
     public function setGestionnaire(Utilisateur $u): static { $this->gestionnaire = $u; return $this; }
     /** @return Collection<int, Seance> */

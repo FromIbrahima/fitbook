@@ -14,9 +14,9 @@ import { IconComponent } from '../shared/icon.component';
           <p>Réservez votre sport, simplement.</p>
           <small>© {{ annee }} FitBook — Projet de fin de formation</small>
         </div>
-        <div><h4>Plateforme</h4><a routerLink="/recherche">Rechercher</a><a routerLink="/recherche" [queryParams]="{ onglet: 'salles' }">Salles</a><a routerLink="/recherche" [queryParams]="{ onglet: 'coachs' }">Coachs</a><a routerLink="/recherche">Séances</a></div>
+        <div><h4>Plateforme</h4><a routerLink="/recherche">Rechercher</a><a routerLink="/recherche" [queryParams]="{ onglet: 'salles' }">Salles</a><a routerLink="/recherche" [queryParams]="{ onglet: 'coachs' }">Coachs</a><a routerLink="/recherche" [queryParams]="{ onglet: 'seances' }">Séances</a></div>
         <div><h4>Professionnels</h4><a routerLink="/connexion" [queryParams]="{ mode: 'inscription', role: 'COACH' }">Devenir coach</a><a routerLink="/connexion" [queryParams]="{ mode: 'inscription', role: 'GESTIONNAIRE' }">Inscrire ma salle</a></div>
-        <div><h4>Aide</h4><a routerLink="/">FAQ</a><a routerLink="/">Contact</a><a routerLink="/">Conditions</a><a routerLink="/">Confidentialité</a></div>
+        <div><h4>Aide</h4><a routerLink="/faq">FAQ</a><a routerLink="/contact">Contact</a><a routerLink="/conditions">Conditions</a><a routerLink="/confidentialite">Confidentialité</a></div>
       </div>
     </footer>`,
 })

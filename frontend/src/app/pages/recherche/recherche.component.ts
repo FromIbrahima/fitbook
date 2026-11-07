@@ -181,7 +181,7 @@ export class RechercheComponent {
         tri: p.get('tri') ?? 'date',
       };
       const o = p.get('onglet') as Onglet | null;
-      if (o) this.onglet.set(o);
+      this.onglet.set(o === 'salles' || o === 'coachs' ? o : 'seances'); // sans onglet dans l'adresse : Séances
       this.charger();
     });
   }

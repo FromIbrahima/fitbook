@@ -48,6 +48,10 @@ class Seance
     #[ORM\Column(length: 20, enumType: StatutSeance::class)]
     private StatutSeance $statut = StatutSeance::PLANIFIEE;
 
+    /** Photo propre à la séance ("images/seances/vinyasa-flow.jpg") ; sinon, celle de son activité */
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $photo = null;
+
     #[ORM\ManyToOne(inversedBy: 'seances')]
     #[ORM\JoinColumn(name: 'id_coach', referencedColumnName: 'id_coach', nullable: false)]
     private ?Coach $coach = null;
@@ -84,6 +88,8 @@ class Seance
     public function setPrix(float $p): static { $this->prix = number_format($p, 2, '.', ''); return $this; }
     public function getNiveau(): Niveau { return $this->niveau; }
     public function setNiveau(Niveau $n): static { $this->niveau = $n; return $this; }
+    public function getPhoto(): ?string { return $this->photo; }
+    public function setPhoto(?string $p): static { $this->photo = $p; return $this; }
     public function getStatut(): StatutSeance { return $this->statut; }
     public function setStatut(StatutSeance $s): static { $this->statut = $s; return $this; }
     public function getCoach(): ?Coach { return $this->coach; }
